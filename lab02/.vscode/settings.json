@@ -1,0 +1,20 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "C_Cpp.errorSquiggles": "disabled",
+  "idf.portWin": "COM5",
+  "files.associations": {
+    "*.embeddedhtml": "html",
+    "gpio.h": "c",
+    "task.h": "c",
+    "freertos.h": "c",
+    "esp_rom_gpio.h": "c",
+    "gpio_etm.h": "c",
+    "esp_spi_flash.h": "c",
+    "sdkconfig.h": "c",
+    "esp_system.h": "c",
+    "stdint.h": "c",
+    "stdio.h": "c"
+  },
+  "idf.flashType": "UART",
+  "idf.adapterTargetName": "esp32"
+}
