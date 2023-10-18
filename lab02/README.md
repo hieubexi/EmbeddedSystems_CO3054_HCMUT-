@@ -2,7 +2,6 @@
 | ----------------- | ----- | -------- | -------- | -------- | -------- | -------- | -------- |
 
 # Folder contents
-
 The project **lab2** contains one source file in C language [lab2_scheduler.c](main/lab2_scheduler.c). The file is located in folder [main](main).
 
 ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt` files that provide set of directives and instructions describing the project's source files and targets (executable, library, or both).
@@ -26,8 +25,8 @@ For more information on structure and contents of ESP-IDF projects, please refer
 1. Download and install [Visual Studio Code](https://code.visualstudio.com/).
 2. Open the **Extensions** view by clicking on the Extension icon in the Activity Bar on the side of Visual Studio Code or the **View: Extensions** command (shortcut: <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>X</kbd> or <kbd>Ctrl+Shift+X</kbd>.
 3. Search the extension with any related keyword like `espressif`, `esp-idf`, `esp32`, `esp32s2`, etc.
-4. Install the extension.
-## How to run the project
+4. Install the extension. You can follow the instructions [Here](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md)
+# How to run the project
 We have two methods to run the project
 1. Run using buttons provided by the application<br>
 All of buttons are placed in the bottom of Visual Studio interface.
