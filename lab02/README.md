@@ -37,10 +37,12 @@ All of buttons are placed in the bottom of Visual Studio interface.
 ```
 2. Run with commands
 ```
-    * Build the project. 
-    * Flash to the device. Push the button ESP-IDF Flash device
-    * Open monitor of device. Push the button ESP-IDF Monitor device
+    * Build the project. `idf.py build`
+    * Flash to the device. `idf.py flash`
+    * Open monitor of device. `idf.py monitor`
 ```
+or you can multiple commands `idf.py build flash monitor`.
+
 * Program upload failure
     * Hardware connection is not correct: run `idf.py -p PORT monitor`, and reboot your board to see if there are any output logs.
     * The baud rate for downloading is too high: lower your baud rate in the `menuconfig` menu, and try again.
