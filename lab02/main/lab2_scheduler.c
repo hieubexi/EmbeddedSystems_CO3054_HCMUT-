@@ -14,15 +14,15 @@
 #include "freertos/task.h"
 #include "sdkconfig.h"
 #include <stdio.h>
-
-
+// define GPIO
 #define BUTTON GPIO_NUM_18
 #define LED GPIO_NUM_17
-
+// define variable
 const int studentID = 2013149 ;
+// this variable below is used to count the number of times that task1 ran
 int count_run_task_1 = 0;
 static uint8_t button_default_state = 0;
-// Features functions
+
 
 // set up phase 
 void setup(){
@@ -31,13 +31,12 @@ void setup(){
     gpio_pad_select_gpio(BUTTON);  
     gpio_set_direction(BUTTON, GPIO_MODE_INPUT);
     gpio_set_pull_mode(BUTTON, GPIO_PULLUP_ONLY);
-
     // set up for LED
     gpio_set_direction(LED,GPIO_MODE_OUTPUT);
     gpio_set_level(LED,0);
 
 }
-// Print student every second
+// Print student every second and num of cycles running task 1
 void printStudentID(void *pvParameter){
     while(1){
         printf("%d times execution task 1 | Student's ID: %d\n",count_run_task_1,studentID);
@@ -63,24 +62,14 @@ void eventPrintESP32(void *pvParameter){
     // Delete the task. This will never be reached.
     vTaskDelete(NULL);
 }
-void holding_time(){
-    while (1)
-    {
-        
-    }
-    
-}
 // main function
 void app_main(void)
 {
-    // esp_rom_gpio_pad_select_gpio(BUTTON);    
-
-    // gpio_set_pull_mode(BUTTON, GPIO_PULLUP_ONLY);
-    // gpio_pad_select_gpio(BUTTON);
-    // gpio_set_direction(BUTTON, GPIO_MODE_INPUT);
-    // gpio_set_pull_mode(BUTTON, GPIO_PULLUP_ONLY);
-    printf("Hello world!\n");
+    // print some quoted strings to begin
+    printf("Lab 2: ESP32 GPIO and FreeRTOS task!\n");
+    // call set up GPIO
     setup();
+    // Create task
     xTaskCreate(printStudentID, "printStudentID", 2048, NULL, 1, NULL);
     xTaskCreate(eventPrintESP32, "eventPrintESP32", 2048, NULL, 2, NULL);
 

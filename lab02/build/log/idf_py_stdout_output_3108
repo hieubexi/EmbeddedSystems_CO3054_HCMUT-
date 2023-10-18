@@ -1,0 +1,518 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 27 2023 16:03:29[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09a10h ( 39440) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=00019a38 vaddr=3ffb0000 size=02158h (  8536) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001bb98 vaddr=40080000 size=04480h ( 17536) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=145fch ( 83452) map[0m
+[0;32mI (163) esp_image: segment 4: paddr=00034624 vaddr=40084480 size=07b64h ( 31588) load[0m
+[0;32mI (183) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (183) boot: Disabling RNG early entropy source...[0m
+[0;32mI (194) cpu_start: Multicore app[0m
+[0;32mI (195) cpu_start: Pro cpu up.[0m
+[0;32mI (195) cpu_start: Starting app cpu, entry point is 0x400810e8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (213) cpu_start: Pro cpu start user code[0m
+[0;32mI (213) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (213) cpu_start: Application information:[0m
+[0;32mI (218) cpu_start: Project name:     lab02[0m
+[0;32mI (222) cpu_start: App version:      2.0[0m
+[0;32mI (227) cpu_start: Compile time:     Sep 27 2023 16:02:32[0m
+[0;32mI (233) cpu_start: ELF file SHA256:  16179303e6d64b4a...[0m
+[0;32mI (239) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (244) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (249) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (254) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (259) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (266) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (272) heap_init: At 3FFB29C8 len 0002D638 (181 KiB): DRAM[0m
+[0;32mI (278) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (285) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (291) heap_init: At 4008BFE4 len 0001401C (80 KiB): IRAM[0m
+[0;32mI (299) spi_flash: detected chip: generic[0m
+[0;32mI (302) spi_flash: flash io: dio[0m
+[0;33mW (306) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (319) app_start: Starting scheduler on CPU0[0m
+[0;32mI (324) app_start: Starting scheduler on CPU1[0m
+[0;32mI (324) main_task: Started on CPU0[0m
+[0;32mI (334) main_task: Calling app_main()[0m
+Hello world!
+Setup gpio
+0 times execution task 1 | Student's ID: 2013149
+[0;32mI (344) main_task: Returned from app_main()[0m
+1 times execution task 1 | Student's ID: 2013149
+2 times execution task 1 | Student's ID: 2013149
+3 times execution task 1 | Student's ID: 2013149
+4 times execution task 1 | Student's ID: 2013149
+5 times execution task 1 | Student's ID: 2013149
+6 times execution task 1 | Student's ID: 2013149
+7 times execution task 1 | Student's ID: 2013149
+8 times execution task 1 | Student's ID: 2013149
+9 times execution task 1 | Student's ID: 2013149
+10 times execution task 1 | Student's ID: 2013149
+11 times execution task 1 | Student's ID: 2013149
+12 times execution task 1 | Student's ID: 2013149
+13 times execution task 1 | Student's ID: 2013149
+14 times execution task 1 | Student's ID: 2013149
+15 times execution task 1 | Student's ID: 2013149
+16 times execution task 1 | Student's ID: 2013149
+17 times execution task 1 | Student's ID: 2013149
+18 times execution task 1 | Student's ID: 2013149
+19 times execution task 1 | Student's ID: 2013149
+20 times execution task 1 | Student's ID: 2013149
+21 times execution task 1 | Student's ID: 2013149
+22 times execution task 1 | Student's ID: 2013149
+23 times execution task 1 | Student's ID: 2013149
+24 times execution task 1 | Student's ID: 2013149
+25 times execution task 1 | Student's ID: 2013149
+26 times execution task 1 | Student's ID: 2013149
+27 times execution task 1 | Student's ID: 2013149
+28 times execution task 1 | Student's ID: 2013149
+29 times execution task 1 | Student's ID: 2013149
+30 times execution task 1 | Student's ID: 2013149
+31 times execution task 1 | Student's ID: 2013149
+32 times execution task 1 | Student's ID: 2013149
+33 times execution task 1 | Student's ID: 2013149
+34 times execution task 1 | Student's ID: 2013149
+35 times execution task 1 | Student's ID: 2013149
+36 times execution task 1 | Student's ID: 2013149
+37 times execution task 1 | Student's ID: 2013149
+38 times execution task 1 | Student's ID: 2013149
+39 times execution task 1 | Student's ID: 2013149
+40 times execution task 1 | Student's ID: 2013149
+41 times execution task 1 | Student's ID: 2013149
+42 times execution task 1 | Student's ID: 2013149
+43 times execution task 1 | Student's ID: 2013149
+44 times execution task 1 | Student's ID: 2013149
+45 times execution task 1 | Student's ID: 2013149
+46 times execution task 1 | Student's ID: 2013149
+47 times execution task 1 | Student's ID: 2013149
+48 times execution task 1 | Student's ID: 2013149
+49 times execution task 1 | Student's ID: 2013149
+50 times execution task 1 | Student's ID: 2013149
+51 times execution task 1 | Student's ID: 2013149
+52 times execution task 1 | Student's ID: 2013149
+53 times execution task 1 | Student's ID: 2013149
+54 times execution task 1 | Student's ID: 2013149
+55 times execution task 1 | Student's ID: 2013149
+56 times execution task 1 | Student's ID: 2013149
+57 times execution task 1 | Student's ID: 2013149
+58 times execution task 1 | Student's ID: 2013149
+59 times execution task 1 | Student's ID: 2013149
+60 times execution task 1 | Student's ID: 2013149
+61 times execution task 1 | Student's ID: 2013149
+62 times execution task 1 | Student's ID: 2013149
+63 times execution task 1 | Student's ID: 2013149
+64 times execution task 1 | Student's ID: 2013149
+65 times execution task 1 | Student's ID: 2013149
+66 times execution task 1 | Student's ID: 2013149
+67 times execution task 1 | Student's ID: 2013149
+68 times execution task 1 | Student's ID: 2013149
+69 times execution task 1 | Student's ID: 2013149
+70 times execution task 1 | Student's ID: 2013149
+71 times execution task 1 | Student's ID: 2013149
+72 times execution task 1 | Student's ID: 2013149
+73 times execution task 1 | Student's ID: 2013149
+74 times execution task 1 | Student's ID: 2013149
+75 times execution task 1 | Student's ID: 2013149
+76 times execution task 1 | Student's ID: 2013149
+77 times execution task 1 | Student's ID: 2013149
+78 times execution task 1 | Student's ID: 2013149
+79 times execution task 1 | Student's ID: 2013149
+80 times execution task 1 | Student's ID: 2013149
+81 times execution task 1 | Student's ID: 2013149
+82 times execution task 1 | Student's ID: 2013149
+83 times execution task 1 | Student's ID: 2013149
+84 times execution task 1 | Student's ID: 2013149
+85 times execution task 1 | Student's ID: 2013149
+86 times execution task 1 | Student's ID: 2013149
+87 times execution task 1 | Student's ID: 2013149
+88 times execution task 1 | Student's ID: 2013149
+89 times execution task 1 | Student's ID: 2013149
+90 times execution task 1 | Student's ID: 2013149
+91 times execution task 1 | Student's ID: 2013149
+92 times execution task 1 | Student's ID: 2013149
+93 times execution task 1 | Student's ID: 2013149
+94 times execution task 1 | Student's ID: 2013149
+95 times execution task 1 | Student's ID: 2013149
+96 times execution task 1 | Student's ID: 2013149
+97 times execution task 1 | Student's ID: 2013149
+98 times execution task 1 | Student's ID: 2013149
+99 times execution task 1 | Student's ID: 2013149
+100 times execution task 1 | Student's ID: 2013149
+101 times execution task 1 | Student's ID: 2013149
+102 times execution task 1 | Student's ID: 2013149
+103 times execution task 1 | Student's ID: 2013149
+104 times execution task 1 | Student's ID: 2013149
+105 times execution task 1 | Student's ID: 2013149
+106 times execution task 1 | Student's ID: 2013149
+107 times execution task 1 | Student's ID: 2013149
+108 times execution task 1 | Student's ID: 2013149
+109 times execution task 1 | Student's ID: 2013149
+110 times execution task 1 | Student's ID: 2013149
+111 times execution task 1 | Student's ID: 2013149
+112 times execution task 1 | Student's ID: 2013149
+113 times execution task 1 | Student's ID: 2013149
+114 times execution task 1 | Student's ID: 2013149
+115 times execution task 1 | Student's ID: 2013149
+116 times execution task 1 | Student's ID: 2013149
+117 times execution task 1 | Student's ID: 2013149
+118 times execution task 1 | Student's ID: 2013149
+119 times execution task 1 | Student's ID: 2013149
+120 times execution task 1 | Student's ID: 2013149
+121 times execution task 1 | Student's ID: 2013149
+122 times execution task 1 | Student's ID: 2013149
+123 times execution task 1 | Student's ID: 2013149
+124 times execution task 1 | Student's ID: 2013149
+125 times execution task 1 | Student's ID: 2013149
+126 times execution task 1 | Student's ID: 2013149
+127 times execution task 1 | Student's ID: 2013149
+128 times execution task 1 | Student's ID: 2013149
+129 times execution task 1 | Student's ID: 2013149
+130 times execution task 1 | Student's ID: 2013149
+131 times execution task 1 | Student's ID: 2013149
+132 times execution task 1 | Student's ID: 2013149
+133 times execution task 1 | Student's ID: 2013149
+134 times execution task 1 | Student's ID: 2013149
+135 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+136 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+137 times execution task 1 | Student's ID: 2013149
+138 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+139 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+140 times execution task 1 | Student's ID: 2013149
+141 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+142 times execution task 1 | Student's ID: 2013149
+143 times execution task 1 | Student's ID: 2013149
+144 times execution task 1 | Student's ID: 2013149
+145 times execution task 1 | Student's ID: 2013149
+146 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+147 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+148 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+149 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+150 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+151 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+152 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+153 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+154 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+155 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+156 times execution task 1 | Student's ID: 2013149
+157 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+158 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+159 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+160 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+161 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+162 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+163 times execution task 1 | Student's ID: 2013149
+164 times execution task 1 | Student's ID: 2013149
+165 times execution task 1 | Student's ID: 2013149
+166 times execution task 1 | Student's ID: 2013149
+167 times execution task 1 | Student's ID: 2013149
+168 times execution task 1 | Student's ID: 2013149
+169 times execution task 1 | Student's ID: 2013149
+170 times execution task 1 | Student's ID: 2013149
+171 times execution task 1 | Student's ID: 2013149
+172 times execution task 1 | Student's ID: 2013149
+173 times execution task 1 | Student's ID: 2013149
+174 times execution task 1 | Student's ID: 2013149
+175 times execution task 1 | Student's ID: 2013149
+176 times execution task 1 | Student's ID: 2013149
+177 times execution task 1 | Student's ID: 2013149
+178 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+179 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+180 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+181 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+182 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+183 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+184 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+185 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+186 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+187 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+188 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+189 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+190 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+191 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+192 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+193 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+194 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+195 times execution task 1 | Student's ID: 2013149
+196 times execution task 1 | Student's ID: 2013149
+197 times execution task 1 | Student's ID: 2013149
+198 times execution task 1 | Student's ID: 2013149
+199 times execution task 1 | Student's ID: 2013149
+200 times execution task 1 | Student's ID: 2013149
+201 times execution task 1 | Student's ID: 2013149
+202 times execution task 1 | Student's ID: 2013149
+203 times execution task 1 | Student's ID: 2013149
+204 times execution task 1 | Student's ID: 2013149
+205 times execution task 1 | Student's ID: 2013149
+206 times execution task 1 | Student's ID: 2013149
+207 times execution task 1 | Student's ID: 2013149
+208 times execution task 1 | Student's ID: 2013149
+209 times execution task 1 | Student's ID: 2013149
+210 times execution task 1 | Student's ID: 2013149
+211 times execution task 1 | Student's ID: 2013149
+212 times execution task 1 | Student's ID: 2013149
+213 times execution task 1 | Student's ID: 2013149
+214 times execution task 1 | Student's ID: 2013149
+215 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+Task 2: ESP32
+Task 2: ESP32
+216 times execution task 1 | Student's ID: 2013149
+Task 2: ESP32
+217 times execution task 1 | Student's ID: 2013149
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (32) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Sep 27 2023 16:03:29[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09a10h ( 39440) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=00019a38 vaddr=3ffb0000 size=02158h (  8536) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001bb98 vaddr=40080000 size=04480h ( 17536) load[0m
+[0;32mI (133) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=145fch ( 83452) map[0m
+[0;32mI (164) esp_image: segment 4: paddr=00034624 vaddr=40084480 size=07b64h ( 31588) load[0m
+[0;32mI (183) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (183) boot: Disabling RNG early entropy source...[0m
+[0;32mI (195) cpu_start: Multicore app[0m
+[0;32mI (195) cpu_start: Pro cpu up.[0m
+[0;32mI (195) cpu_start: Starting app cpu, entry point is 0x400810e8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (213) cpu_start: Pro cpu start user code[0m
+[0;32mI (213) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (213) cpu_start: Application information:[0m
+[0;32mI (218) cpu_start: Project name:     lab02[0m
+[0;32mI (223) cpu_start: App version:      2.0[0m
+[0;32mI (227) cpu_start: Compile time:     Sep 27 2023 16:02:32[0m
+[0;32mI (233) cpu_start: ELF file SHA256:  16179303e6d64b4a...[0m
+[0;32mI (239) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (245) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (249) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (254) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (259) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (266) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (272) heap_init: At 3FFB29C8 len 0002D638 (181 KiB): DRAM[0m
+[0;32mI (279) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (285) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (291) heap_init: At 4008BFE4 len 0001401C (80 KiB): IRAM[0m
+[0;32mI (299) spi_flash: detected chip: generic[0m
+[0;32mI (302) spi_flash: flash io: dio[0m
+[0;33mW (306) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (320) app_start: Starting scheduler on CPU0[0m
+[0;32mI (324) app_start: Starting scheduler on CPU1[0m
+[0;32mI (324) main_task: Started on CPU0[0m
+[0;32mI (334) main_task: Calling app_main()[0m
+Hello world!
+Setup gpio
+0 times execution task 1 | Student's ID: 2013149
+[0;32mI (344) main_task: Returned from app_main()[0m
+1 times execution task 1 | Student's ID: 2013149
+2 times execution task 1 | Student's ID: 2013149
+3 times execution task 1 | Student's ID: 2013149
+4 times execution task 1 | Student's ID: 2013149
+5 times execution task 1 | Student's ID: 2013149
+6 times execution task 1 | Student's ID: 2013149
+7 times execution task 1 | Student's ID: 2013149
+8 times execution task 1 | Student's ID: 2013149
+9 times execution task 1 | Student's ID: 2013149
+10 times execution task 1 | Student's ID: 2013149
+11 times execution task 1 | Student's ID: 2013149
+12 times execution task 1 | Student's ID: 2013149
+13 times execution task 1 | Student's ID: 2013149
+14 times execution task 1 | Student's ID: 2013149
+15 times execution task 1 | Student's ID: 2013149
+16 times execution task 1 | Student's ID: 2013149
+17 times execution task 1 | Student's ID: 2013149
+18 times execution task 1 | Student's ID: 2013149
+19 times execution task 1 | Student's ID: 2013149
+20 times execution task 1 | Student's ID: 2013149
+21 times execution task 1 | Student's ID: 2013149
+22 times execution task 1 | Student's ID: 2013149
+23 times execution task 1 | Student's ID: 2013149
+24 times execution task 1 | Student's ID: 2013149
+25 times execution task 1 | Student's ID: 2013149
+26 times execution task 1 | Student's ID: 2013149
+27 times execution task 1 | Student's ID: 2013149
+28 times execution task 1 | Student's ID: 2013149
+29 times execution task 1 | Student's ID: 2013149
+30 times execution task 1 | Student's ID: 2013149
+31 times execution task 1 | Student's ID: 2013149
+32 times execution task 1 | Student's ID: 2013149
+33 times execution task 1 | Student's ID: 2013149
+34 times execution task 1 | Student's ID: 2013149
+35 times execution task 1 | Student's ID: 2013149
+36 times execution task 1 | Student's ID: 2013149
+37 times execution task 1 | Student's ID: 2013149
+38 times execution task 1 | Student's ID: 2013149
+39 times execution task 1 | Student's ID: 2013149
+40 times execution task 1 | Student's ID: 2013149
+41 times execution task 1 | Student's ID: 2013149
+42 times execution task 1 | Student's ID: 2013149
+43 times execution task 1 | Student's ID: 2013149
+44 times execution task 1 | Student's ID: 2013149
+45 times execution task 1 | Student's ID: 2013149
+46 times execution task 1 | Student's ID: 2013149
+47 times execution task 1 | Student's ID: 2013149
+48 times execution task 1 | Student's ID: 2013149
+49 times execution task 1 | Student's ID: 2013149
+50 times execution task 1 | Student's ID: 2013149
+51 times execution task 1 | Student's ID: 2013149
+52 times execution task 1 | Student's ID: 2013149
+53 times execution task 1 | Student's ID: 2013149
+54 times execution task 1 | Student's ID: 2013149
+55 times execution task 1 | Student's ID: 2013149
+56 times execution task 1 | Student's ID: 2013149
+57 times execution task 1 | Student's ID: 2013149
+58 times execution task 1 | Student's ID: 2013149
+59 times execution task 1 | Student's ID: 2013149
+60 times execution task 1 | Student's ID: 2013149
+61 times execution task 1 | Student's ID: 2013149
+62 times execution task 1 | Student's ID: 2013149
+63 times execution task 1 | Student's ID: 2013149
+64 times execution task 1 | Student's ID: 2013149
+65 times execution task 1 | Student's ID: 2013149
+66 times execution task 1 | Student's ID: 2013149
+67 times execution task 1 | Student's ID: 2013149
+68 times execution task 1 | Student's ID: 2013149
+69 times execution task 1 | Student's ID: 2013149
+70 times execution task 1 | Student's ID: 2013149
+71 times execution task 1 | Student's ID: 2013149
+72 times execution task 1 | Student's ID: 2013149
+73 times execution task 1 | Student's ID: 2013149
+74 times execution task 1 | Student's ID: 2013149
+75 times execution task 1 | Student's ID: 2013149
+76 times execution task 1 | Student's ID: 2013149
+77 times execution task 1 | Student's ID: 2013149
+78 times execution task 1 | Student's ID: 2013149
+79 times execution task 1 | Student's ID: 2013149
+80 times execution task 1 | Student's ID: 2013149
+81 times execution tas

@@ -13,7 +13,11 @@
     "sdkconfig.h": "c",
     "esp_system.h": "c",
     "stdint.h": "c",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "button_pro.h": "c",
+    "bt_target.h": "c",
+    "gatt_api.h": "c",
+    "gattdefs.h": "c"
   },
   "idf.flashType": "UART",
   "idf.adapterTargetName": "esp32"

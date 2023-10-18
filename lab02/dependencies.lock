@@ -1,0 +1,21 @@
+dependencies:
+  espressif/button:
+    component_hash: a052e0048a227edeedb99fbebf0fe3c8841a95111525f464981b2f82a76336a6
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 3.1.0
+  espressif/cmake_utilities:
+    component_hash: c3f351bed6fdb3d91bee6076740cb13d22e2c7bfcdd78969a65b46943885bbd4
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 0.5.2
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.1.1
+manifest_hash: 76db6456ec2c8b5151992d04a6d26caf9261364a161271672b69feae784158a9
+target: esp32
+version: 1.0.0

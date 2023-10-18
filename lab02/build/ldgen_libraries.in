@@ -59,4 +59,5 @@ $<TARGET_FILE:__idf_mqtt>
 $<TARGET_FILE:__idf_perfmon>
 $<TARGET_FILE:__idf_spiffs>
 $<TARGET_FILE:__idf_wifi_provisioning>
+$<TARGET_FILE:__idf_espressif__button>
 $<TARGET_FILE:__idf_main>

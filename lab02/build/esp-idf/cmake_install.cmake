@@ -404,6 +404,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("D:/Semester_231/Embeded_System/Lab/lab02/build/esp-idf/espressif__cmake_utilities/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/Semester_231/Embeded_System/Lab/lab02/build/esp-idf/espressif__button/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("D:/Semester_231/Embeded_System/Lab/lab02/build/esp-idf/main/cmake_install.cmake")
 endif()
 

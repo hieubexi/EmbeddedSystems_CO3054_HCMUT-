@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "lab03",
-    "project_version":    "1.0",
+    "project_version":    "2.0",
     "project_path":       "D:/Semester_231/Embeded_System/Lab/lab03",
     "idf_path":           "C:/Users/hieun/esp/esp-idf",
     "build_dir":          "D:/Semester_231/Embeded_System/Lab/lab03/build",
@@ -790,7 +790,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "D:/Semester_231/Embeded_System/Lab/lab03/build/esp-idf/main/libmain.a",
-            "sources": [ "D:/Semester_231/Embeded_System/Lab/lab03/main/lab03.c" ],
+            "sources": [ "D:/Semester_231/Embeded_System/Lab/lab03/main/Prioritized_scheduling_time_slicing.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
