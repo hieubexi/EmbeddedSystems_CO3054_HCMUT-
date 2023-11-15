@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Semester_231/Embeded_System/Lab/lab03/cpuUtilization/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "D:/Semester_231/Embeded_System/Lab/lab03/cpuUtilization/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "D:/Semester_231/Embeded_System/Lab/lab03/cpuUtilization/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "D:/Semester_231/Embeded_System/Lab/lab03/cpuUtilization/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "D:/Semester_231/Embeded_System/Lab/lab03/cpuUtilization/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "D:/Semester_231/Embeded_System/Lab/lab03/cpuUtilization/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "D:/Semester_231/Embeded_System/Lab/lab03/cpuUtilization/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "D:/Semester_231/Embeded_System/Lab/lab03/cpuUtilization/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "D:/Semester_231/Embeded_System/Lab/lab03/cpuUtilization/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "D:/Semester_231/Embeded_System/Lab/lab03/cpuUtilization/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

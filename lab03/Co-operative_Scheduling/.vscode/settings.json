@@ -1,0 +1,7 @@
+{
+    "idf.adapterTargetName": "esp32",
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "freertosconfig.h": "c"
+    }
+}

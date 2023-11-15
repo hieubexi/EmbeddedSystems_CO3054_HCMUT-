@@ -1,0 +1,75 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7080
+load:0x40078000,len:15476
+load:0x40080400,len:4
+load:0x40080404,len:3668
+entry 0x4008061c
+[0;32mI (29) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Nov 11 2023 21:17:27[0m
+[0;33mW (30) boot: Unicore bootloader[0m
+[0;32mI (34) boot: chip revision: v3.0[0m
+[0;32mI (38) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (42) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (47) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (51) boot: Enabling RNG early entropy source...[0m
+[0;32mI (57) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (68) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (75) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (83) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (90) boot: End of partition table[0m
+[0;32mI (94) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=08cdch ( 36060) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00018d04 vaddr=3ffb0000 size=016dch (  5852) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=0001a3e8 vaddr=40080000 size=05c30h ( 23600) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e64h ( 81508) map[0m
+[0;32mI (161) esp_image: segment 4: paddr=00033e8c vaddr=40085c30 size=050e8h ( 20712) load[0m
+[0;32mI (176) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (176) boot: Disabling RNG early entropy source...[0m
+[0;32mI (187) cpu_start: Unicore app[0m
+[0;32mI (188) cpu_start: Pro cpu up.[0m
+[0;32mI (188) cpu_start: Single core mode[0m
+[0;32mI (199) cpu_start: Pro cpu start user code[0m
+[0;32mI (199) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (199) cpu_start: Application information:[0m
+[0;32mI (204) cpu_start: Project name:     lab03[0m
+[0;32mI (209) cpu_start: App version:      1.0[0m
+[0;32mI (214) cpu_start: Compile time:     Nov 11 2023 21:17:08[0m
+[0;32mI (220) cpu_start: ELF file SHA256:  9184a3f9463c9802...[0m
+[0;32mI (226) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (231) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (236) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (241) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (246) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (253) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 3FFB1E70 len 0002E190 (184 KiB): DRAM[0m
+[0;32mI (265) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM[0m
+[0;32mI (271) heap_init: At 40078000 len 00008000 (32 KiB): IRAM[0m
+[0;32mI (277) heap_init: At 4008AD18 len 000152E8 (84 KiB): IRAM[0m
+[0;32mI (284) heap_init: At 3FF80000 len 00002000 (8 KiB): RTCRAM[0m
+[0;32mI (291) spi_flash: detected chip: generic[0m
+[0;32mI (295) spi_flash: flash io: dio[0m
+[0;32mI (299) app_start: Starting scheduler on CPU0[0m
+[0;32mI (304) main_task: Started on CPU0[0m
+[0;32mI (304) main_task: Calling app_main()[0m
+********************************
+* Setting...
+* Done setting
+********************************
+********************************
+* GD sing at  30 ms
+* Ayo, what up Vie********************************
+* Jack come at  933 ms
+* Jack come and broke the show. his voice be like : "$" 
+$t[0;32mI (1274) main_task: Returned from app_main()[0m
+N$am$, $gu$es$s $wh$o $is$ b$ac$k!$
+$$$$$$$* $Ay$o,$ w$ha$t $up$ V$ie$tN$am$, $gu$es$s $wh$o $is$ b$ac$k!$
+$$$$$$$* $Ay$o,$ w$ha$t $up$ V$ie$tN$am$, $gu$es$s $wh$o $is$ b$ac$k!$
+$$$$$$$* $Ay$o,$ w$ha$t $up$ V$ie$tN$am$, $gu$es$s $wh$o $is$ b$ac$k!$
+$$$$$$$* $Ay$o,$ w$ha$t $up$ V$ie$tN$am$, $gu$es$s $wh$o $is$ b$ac$k!$
+$$$$$$$* $Ay$o,$ w$ha$t $up$ V$ie$tN$am$, $gu$es$s $wh$o $is$ b$ac$k!$
+$$$$$$$* $Ay$o,$ w$ha$t $up$ V$ie$tN$am$, $gu$es$s $wh$o $is$ b$ac$k!$

@@ -1,0 +1,13 @@
+{
+    "idf.adapterTargetName": "esp32",
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "freertosconfig.h": "c",
+        "esp_compiler.h": "c",
+        "freertos.h": "c",
+        "freertosconfig_arch.h": "c",
+        "task.h": "c",
+        "sdkconfig.h": "c",
+        "compare": "c"
+    }
+}

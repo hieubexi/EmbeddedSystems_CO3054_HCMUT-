@@ -1,0 +1,18 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\Semester_231\Embeded_System\Lab\lab03\Co-operative_Scheduling\build\bootloader\esp-idf\esptool_py && C:\Users\hieun\.espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe C:/Users/hieun/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/Semester_231/Embeded_System/Lab/lab03/Co-operative_Scheduling/build/bootloader/bootloader.bin"
+Bootloader binary size 0x66d0 bytes. 0x930 bytes (8%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Co-operative_Scheduling.c.obj
+D:/Semester_231/Embeded_System/Lab/lab03/Co-operative_Scheduling/main/Co-operative_Scheduling.c:36:17: warning: 'button_active_state' defined but not used [-Wunused-variable]
+   36 | static uint8_t  button_active_state = 0 ;
+      |                 ^~~~~~~~~~~~~~~~~~~
+[3/7] Linking C static library esp-idf\main\libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable Co-operative_Scheduling.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.7.dev1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/Semester_231/Embeded_System/Lab/lab03/Co-operative_Scheduling/build/Co-operative_Scheduling.bin
+[7/7] cmd.exe /C "cd /D D:\Semester_231\Embeded_System\Lab\lab03\Co-operative_Scheduling\build\esp-idf\esptool_py && C:\Users\hieun\.espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe C:/Users/hieun/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Semester_231/Embeded_System/Lab/lab03/Co-operative_Scheduling/build/partition_table/partition-table.bin D:/Semester_231/Embeded_System/Lab/lab03/Co-operative_Scheduling/build/Co-operative_Scheduling.bin"
+Co-operative_Scheduling.bin binary size 0x28fd0 bytes. Smallest app partition is 0x100000 bytes. 0xd7030 bytes (84%) free.

@@ -25,7 +25,7 @@ For more information on structure and contents of ESP-IDF projects, please refer
 1. Download and install [Visual Studio Code](https://code.visualstudio.com/).
 2. Open the **Extensions** view by clicking on the Extension icon in the Activity Bar on the side of Visual Studio Code or the **View: Extensions** command (shortcut: <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>X</kbd> or <kbd>Ctrl+Shift+X</kbd>.
 3. Search the extension with any related keyword like `espressif`, `esp-idf`, `esp32`, `esp32s2`, etc.
-4. Install the extension. You can follow the instructions [Here](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md)
+4. Install the extension. You can follow the instructions [HERE](https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md).
 # How to run the project
 We have two methods to run the project
 1. Run using buttons provided by the application<br>
@@ -41,7 +41,7 @@ All of buttons are placed in the bottom of Visual Studio interface.
     * Flash to the device. `idf.py flash`
     * Open monitor of device. `idf.py monitor`
 ```
-or you can multiple commands `idf.py build flash monitor`.
+or you can just run multiple commands `idf.py build flash monitor`.
 
 * Program upload failure
     * Hardware connection is not correct: run `idf.py -p PORT monitor`, and reboot your board to see if there are any output logs.
