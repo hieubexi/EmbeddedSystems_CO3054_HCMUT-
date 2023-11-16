@@ -1,4 +1,4 @@
--- IDF_TARGET not set, using default target: esp32
+-- Existing sdkconfig 'D:/Semester_231/Embeded_System/Lab/lab03/cpuUtilization/sdkconfig' renamed to 'D:/Semester_231/Embeded_System/Lab/lab03/cpuUtilization/sdkconfig.old'.
 -- Found Git: C:/Program Files/Git/cmd/git.exe (found version "2.37.3.windows.1") 
 -- ccache will be used for faster recompilation
 -- The C compiler identification is GNU 12.2.0
@@ -28,7 +28,7 @@
 -- Found Python3: C:/Users/hieun/.espressif/python_env/idf5.1_py3.11_env/Scripts/python.exe (found version "3.11.2") found components: Interpreter 
 -- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
 -- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
--- App "cpuUtilization" version: ccdc2be-dirty
+-- App "cpuUtilization" version: 1.0
 -- Adding linker script D:/Semester_231/Embeded_System/Lab/lab03/cpuUtilization/build/esp-idf/esp_system/ld/memory.ld
 -- Adding linker script C:/Users/hieun/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
 -- Adding linker script C:/Users/hieun/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld

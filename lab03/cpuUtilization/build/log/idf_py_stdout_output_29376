@@ -1,0 +1,96 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 16 2023 10:39:47[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09248h ( 37448) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019270 vaddr=3ffb0000 size=020f0h (  8432) load[0m
+[0;32mI (122) esp_image: segment 2: paddr=0001b368 vaddr=40080000 size=04cb0h ( 19632) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=138a8h ( 80040) map[0m
+[0;32mI (162) esp_image: segment 4: paddr=000338d0 vaddr=40084cb0 size=071c0h ( 29120) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (191) cpu_start: Multicore app[0m
+[0;32mI (192) cpu_start: Pro cpu up.[0m
+[0;32mI (192) cpu_start: Starting app cpu, entry point is 0x400810e8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (210) cpu_start: Pro cpu start user code[0m
+[0;32mI (210) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (210) cpu_start: Application information:[0m
+[0;32mI (215) cpu_start: Project name:     cpuUtilization[0m
+[0;32mI (220) cpu_start: App version:      1.0[0m
+[0;32mI (225) cpu_start: Compile time:     Nov 16 2023 10:38:54[0m
+[0;32mI (231) cpu_start: ELF file SHA256:  8869f28064eb9831...[0m
+[0;32mI (237) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (242) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (247) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (252) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (257) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (264) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (270) heap_init: At 3FFB2970 len 0002D690 (181 KiB): DRAM[0m
+[0;32mI (276) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (282) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (289) heap_init: At 4008BE70 len 00014190 (80 KiB): IRAM[0m
+[0;32mI (296) spi_flash: detected chip: generic[0m
+[0;32mI (300) spi_flash: flash io: dio[0m
+[0;33mW (303) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (317) app_start: Starting scheduler on CPU0[0m
+[0;32mI (322) app_start: Starting scheduler on CPU1[0m
+[0;32mI (322) main_task: Started on CPU0[0m
+[0;32mI (332) main_task: Calling app_main()[0m
+[0;32mI (332) main_task: Returned from app_main()[0m
+[0;32mI (332) perform: Core 0 at 100%[0m
+[0;32mI (342) perform: Core 1 at 100%[0m
+[0;32mI (5342) perform: Core 0 at 67%[0m
+[0;32mI (5342) perform: Core 1 at 67%[0m
+[0;32mI (10342) perform: Core 0 at 67%[0m
+[0;32mI (10342) perform: Core 1 at 67%[0m
+[0;32mI (15342) perform: Core 0 at 67%[0m
+[0;32mI (15342) perform: Core 1 at 67%[0m
+[0;32mI (20342) perform: Core 0 at 67%[0m
+[0;32mI (20342) perform: Core 1 at 67%[0m
+[0;32mI (25342) perform: Core 0 at 67%[0m
+[0;32mI (25342) perform: Core 1 at 67%[0m
+[0;32mI (30342) perform: Core 0 at 67%[0m
+[0;32mI (30342) perform: Core 1 at 67%[0m
+[0;32mI (35342) perform: Core 0 at 67%[0m
+[0;32mI (35342) perform: Core 1 at 67%[0m
+[0;32mI (40342) perform: Core 0 at 67%[0m
+[0;32mI (40342) perform: Core 1 at 67%[0m
+[0;32mI (45342) perform: Core 0 at 67%[0m
+[0;32mI (45342) perform: Core 1 at 67%[0m
+[0;32mI (50342) perform: Core 0 at 67%[0m
+[0;32mI (50342) perform: Core 1 at 67%[0m
+[0;32mI (55342) perform: Core 0 at 67%[0m
+[0;32mI (55342) perform: Core 1 at 67%[0m
+[0;32mI (60342) perform: Core 0 at 67%[0m
+[0;32mI (60342) perform: Core 1 at 67%[0m
+[0;32mI (65342) perform: Core 0 at 67%[0m
+[0;32mI (65342) perform: Core 1 at 67%[0m
+[0;32mI (70342) perform: Core 0 at 67%[0m
+[0;32mI (70342) perform: Core 1 at 67%[0m
+[0;32mI (75342) perform: Core 0 at 67%[0m
+[0;32mI (75342) perform: Core 1 at 67%[0m
+[0;32mI (80342) perform: Core 0 at 67%[0m
+[0;32mI (80342) perform: Core 1 at 67%[0m

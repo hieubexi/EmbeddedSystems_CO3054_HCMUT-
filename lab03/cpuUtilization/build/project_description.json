@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "cpuUtilization",
-    "project_version":    "ccdc2be-dirty",
+    "project_version":    "1.0",
     "project_path":       "D:/Semester_231/Embeded_System/Lab/lab03/cpuUtilization",
     "idf_path":           "C:/Users/hieun/esp/esp-idf",
     "build_dir":          "D:/Semester_231/Embeded_System/Lab/lab03/cpuUtilization/build",
@@ -790,7 +790,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "D:/Semester_231/Embeded_System/Lab/lab03/cpuUtilization/build/esp-idf/main/libmain.a",
-            "sources": [ "D:/Semester_231/Embeded_System/Lab/lab03/cpuUtilization/main/cpuUtilization.c" ],
+            "sources": [ "D:/Semester_231/Embeded_System/Lab/lab03/cpuUtilization/main/main.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {

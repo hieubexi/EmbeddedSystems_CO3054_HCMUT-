@@ -2,6 +2,9 @@
     "idf.adapterTargetName": "esp32",
     "files.associations": {
         "*.embeddedhtml": "html",
-        "freertos.h": "c"
-    }
+        "freertos.h": "c",
+        "esp32_perfmon.h": "c",
+        "esp_err.h": "c"
+    },
+    "idf.portWin": "COM6"
 }
