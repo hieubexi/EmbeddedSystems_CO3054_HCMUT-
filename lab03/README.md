@@ -4,10 +4,10 @@
 # Folder contents
 The project **lab3** contains 4 source files in C language 
 
-* Prioritized scheduling with time slicing [main.c](Prioritized_scheduling_time_slicing/main/main.c). The file is located in folder [main](Prioritized_scheduling_time_slicing\main).
-* Prioritized scheduling without time slicing [main.c](Prioritized_scheduling_without_time_slicing\main\main.c). The file is located in folder [main](Prioritized_scheduling_without_time_slicing\main).
-* Co-operative Scheduling [main.c](Co-operative_Scheduling\main\Co-operative_Scheduling.c). The file is located in folder [main](Co-operative_Scheduling\main).
-* Extra exercise. CPU Utilization [main.c](cpuUtilization\main\main.c). The file is located in folder [main](cpuUtilization\main).
+* Prioritized scheduling with time slicing [main.c](Prioritized_scheduling_time_slicing/main/main.c). The file is located in folder [main](Prioritized_scheduling_time_slicing/main).
+* Prioritized scheduling without time slicing [main.c](Prioritized_scheduling_without_time_slicing/main/main.c). The file is located in folder [main](Prioritized_scheduling_without_time_slicing/main).
+* Co-operative Scheduling [main.c](Co-operative_Scheduling/main/Co-operative_Scheduling.c). The file is located in folder [main](Co-operative_Scheduling/main).
+* Extra exercise. CPU Utilization [main.c](cpuUtilization/main/main.c). The file is located in folder [main](cpuUtilization/main).
 
 ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt` files that provide set of directives and instructions describing the project's source files and targets (executable, library, or both).
 
