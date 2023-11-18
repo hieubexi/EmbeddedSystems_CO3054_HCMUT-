@@ -2,7 +2,7 @@
 | ----------------- | ----- | -------- | -------- | -------- | -------- | -------- | -------- |
 
 # Folder contents
-The project **lab2** contains one source file in C language [lab2_scheduler.c](main/lab2_scheduler.c). The file is located in folder [main](main).
+The project **lab04** contains one source file in C language [main.c](main/main.c). The file is located in folder [main](main).
 
 ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt` files that provide set of directives and instructions describing the project's source files and targets (executable, library, or both).
 
