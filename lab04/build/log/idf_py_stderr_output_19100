@@ -1,0 +1,41 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM6 instead...[0m
+[0;33m--- esp-idf-monitor 1.2.1 on \\.\COM6 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400810f0: call_start_cpu1 at C:/Users/hieun/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d54ec: create_lyric at D:/Semester_231/Embeded_System/Lab/lab04/main/main.c:46
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+[0m
+[0;33m0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x400d54e9: create_lyric at D:/Semester_231/Embeded_System/Lab/lab04/main/main.c:45
+[0m
+[0;33m0x400d5509: overWriteTask at D:/Semester_231/Embeded_System/Lab/lab04/main/main.c:113
+[0m
+[0;33m0x40087b99: vPortTaskWrapper at C:/Users/hieun/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400810f0: call_start_cpu1 at C:/Users/hieun/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d54ec: create_lyric at D:/Semester_231/Embeded_System/Lab/lab04/main/main.c:46
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+[0m
+[0;33m0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x400d54e9: create_lyric at D:/Semester_231/Embeded_System/Lab/lab04/main/main.c:45
+[0m
+[0;33m0x400d5509: overWriteTask at D:/Semester_231/Embeded_System/Lab/lab04/main/main.c:113
+[0m
+[0;33m0x40087b99: vPortTaskWrapper at C:/Users/hieun/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400810f0: call_start_cpu1 at C:/Users/hieun/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0m

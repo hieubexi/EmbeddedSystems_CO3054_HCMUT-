@@ -61,6 +61,5 @@ void app_main(void) {
    	ESP_ERROR_CHECK(esp_register_freertos_idle_hook_for_cpu(idle_task_0, 0));
 	ESP_ERROR_CHECK(esp_register_freertos_idle_hook_for_cpu(idle_task_1, 1));
 
-
 	xTaskCreate(perform_task, "perform", 2048, NULL, 1, NULL);
 }

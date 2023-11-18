@@ -1,0 +1,65 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\Semester_231\Embeded_System\Lab\lab04\build\bootloader\esp-idf\esptool_py && C:\Users\hieun\.espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe C:/Users/hieun/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/Semester_231/Embeded_System/Lab/lab04/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6810 bytes. 0x7f0 bytes (7%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+D:/Semester_231/Embeded_System/Lab/lab04/main/main.c:20: warning: "LOG_LOCAL_LEVEL" redefined
+   20 | #define LOG_LOCAL_LEVEL ESP_LOG_VERBOSE
+      | 
+In file included from D:/Semester_231/Embeded_System/Lab/lab04/main/main.c:15:
+C:/Users/hieun/esp/esp-idf/components/log/include/esp_log.h:153: note: this is the location of the previous definition
+  153 | #define LOG_LOCAL_LEVEL  CONFIG_LOG_MAXIMUM_LEVEL
+      | 
+D:/Semester_231/Embeded_System/Lab/lab04/main/main.c:27:16: warning: 'button_default_state' defined but not used [-Wunused-variable]
+   27 | static uint8_t button_default_state = 0;
+      |                ^~~~~~~~~~~~~~~~~~~~
+[3/8] Linking C static library esp-idf\main\libmain.a
+[4/8] Generating ld/sections.ld
+[5/8] Linking CXX executable lab04.elf
+[6/8] Generating binary image from built executable
+esptool.py v4.7.dev1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/Semester_231/Embeded_System/Lab/lab04/build/lab04.bin
+[7/8] cmd.exe /C "cd /D D:\Semester_231\Embeded_System\Lab\lab04\build\esp-idf\esptool_py && C:\Users\hieun\.espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe C:/Users/hieun/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Semester_231/Embeded_System/Lab/lab04/build/partition_table/partition-table.bin D:/Semester_231/Embeded_System/Lab/lab04/build/lab04.bin"
+lab04.bin binary size 0x2cd40 bytes. Smallest app partition is 0x100000 bytes. 0xd32c0 bytes (82%) free.
+[7/8] cmd.exe /C "cd /D C:\Users\hieun\esp\esp-idf\components\esptool_py && C:\Users\hieun\.espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Users/hieun/esp/esp-idf -D SERIAL_TOOL=C:/Users/hieun/.espressif/python_env/idf5.1_py3.11_env/Scripts/python.exe;;C:/Users/hieun/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=D:/Semester_231/Embeded_System/Lab/lab04/build -P C:/Users/hieun/esp/esp-idf/components/esptool_py/run_serial_tool.cmake"
+esptool.py --chip esp32 -p COM6 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 lab04.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.dev1
+Serial port COM6
+Connecting......
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: c8:f0:9e:28:49:08
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x0003cfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26640 bytes to 16692...
+Writing at 0x00001000... (50 %)
+Writing at 0x0000768a... (100 %)
+Wrote 26640 bytes (16692 compressed) at 0x00001000 in 0.9 seconds (effective 240.4 kbit/s)...
+Hash of data verified.
+Compressed 183616 bytes to 101431...
+Writing at 0x00010000... (14 %)
+Writing at 0x0001c806... (28 %)
+Writing at 0x00022115... (42 %)
+Writing at 0x00027e25... (57 %)
+Writing at 0x0002e13c... (71 %)
+Writing at 0x00035e12... (85 %)
+Writing at 0x0003b9cc... (100 %)
+Wrote 183616 bytes (101431 compressed) at 0x00010000 in 2.8 seconds (effective 519.5 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 331.4 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

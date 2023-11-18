@@ -1,0 +1,1015 @@
+�x��x��x��x��x��x��x %%%%%%%%�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 17 2023 22:51:05[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09d48h ( 40264) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=00019d70 vaddr=3ffb0000 size=02158h (  8536) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001bed0 vaddr=40080000 size=04148h ( 16712) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14b34h ( 84788) map[0m
+[0;32mI (164) esp_image: segment 4: paddr=00034b5c vaddr=40084148 size=07e48h ( 32328) load[0m
+[0;32mI (184) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (184) boot: Disabling RNG early entropy source...[0m
+[0;32mI (196) cpu_start: Multicore app[0m
+[0;32mI (196) cpu_start: Pro cpu up.[0m
+[0;32mI (196) cpu_start: Starting app cpu, entry point is 0x400810f0[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (214) cpu_start: Pro cpu start user code[0m
+[0;32mI (214) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (214) cpu_start: Application information:[0m
+[0;32mI (219) cpu_start: Project name:     lab04[0m
+[0;32mI (223) cpu_start: App version:      1.0[0m
+[0;32mI (228) cpu_start: Compile time:     Nov 17 2023 22:50:37[0m
+[0;32mI (234) cpu_start: ELF file SHA256:  4360590f6f86def9...[0m
+[0;32mI (240) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (245) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (250) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (255) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (260) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (267) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (273) heap_init: At 3FFB29C8 len 0002D638 (181 KiB): DRAM[0m
+[0;32mI (279) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (292) heap_init: At 4008BF90 len 00014070 (80 KiB): IRAM[0m
+[0;32mI (300) spi_flash: detected chip: generic[0m
+[0;32mI (303) spi_flash: flash io: dio[0m
+[0;32mI (308) app_start: Starting scheduler on CPU0[0m
+[0;32mI (312) app_start: Starting scheduler on CPU1[0m
+[0;32mI (312) main_task: Started on CPU0[0m
+[0;32mI (322) main_task: Calling app_main()[0m
+********************************
+* Setting...
+* Done setting
+********************************
+* Queue length: 5
+********************************
+[0;32mI (332) main_task: Returned from app_main()[0m
+[0;32mI (342) LAB4: 30ms, NewJeans want to sing the 1 sentence, Topic: "Once you play God, once you play God"[0m
+[0;32mI (352) LAB4: 40ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 4 slot availible in queue
+[0;32mI (362) LAB4: 50ms, NewJeans want to sing the 2 sentence, Topic: "They're gonna crumble one by one"[0m
+[0;32mI (372) LAB4: 60ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 3 slot availible in queue
+[0;32mI (372) LAB4: 60ms, NewJeans want to sing the 3 sentence, Topic: "Then we gon' ride right into the sun"[0m
+[0;32mI (382) LAB4: 70ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 2 slot availible in queue
+[0;32mI (392) LAB4: 80ms, NewJeans want to sing the 4 sentence, Topic: "Like it's the day my kingdom come"[0m
+[0;32mI (402) LAB4: 90ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 1 slot availible in queue
+[0;32mI (412) LAB4: 100ms, NewJeans want to sing the 5 sentence, Topic: "Baby, we're"[0m
+[0;32mI (422) LAB4: 110ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## No slot availible in queue, queue is full
+[0;32mI (432) LAB4: 120ms, NewJeans want to sing the 6 sentence, Topic: "Go-Go-Go-Go-Go-Gods"[0m
+[0;32mI (442) LAB4: 130ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
+[0;32mI (452) LAB4: 140ms, NewJeans want to sing the 20 sentence, Topic: "Got the bag!"[0m
+[0;32mI (462) LAB4: 150ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
+[0;32mI (2342) LAB4: at 2030ms, Noise voice is LOUDER [0m
+[0;32mI (2342) LAB4: at 2030ms,LOUDER [0m
+[0;32mI (2342) LAB4: at 2030ms,LOUDER [0m
+
+assert failed: xQueueGenericSend queue.c:874 (!( ( xCopyPosition == ( ( BaseType_t ) 2 ) ) && ( pxQueue->uxLength != 1 ) ))
+
+
+Backtrace: 0x40081722:0x3ffb7940 0x4008577d:0x3ffb7960 0x4008ac15:0x3ffb7980 0x40085b71:0x3ffb7aa0 0x400d56b7:0x3ffb7ae0 0x40087b99:0x3ffb7b20
+
+
+
+
+ELF file SHA256: 4360590f6f86def9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 17 2023 22:51:05[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09d48h ( 40264) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=00019d70 vaddr=3ffb0000 size=02158h (  8536) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001bed0 vaddr=40080000 size=04148h ( 16712) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14b34h ( 84788) map[0m
+[0;32mI (164) esp_image: segment 4: paddr=00034b5c vaddr=40084148 size=07e48h ( 32328) load[0m
+[0;32mI (184) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (184) boot: Disabling RNG early entropy source...[0m
+[0;32mI (195) cpu_start: Multicore app[0m
+[0;32mI (196) cpu_start: Pro cpu up.[0m
+[0;32mI (196) cpu_start: Starting app cpu, entry point is 0x400810f0[0m
+[0;32mI (183) cpu_start: App cpu up.[0m
+[0;32mI (214) cpu_start: Pro cpu start user code[0m
+[0;32mI (214) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (214) cpu_start: Application information:[0m
+[0;32mI (219) cpu_start: Project name:     lab04[0m
+[0;32mI (224) cpu_start: App version:      1.0[0m
+[0;32mI (228) cpu_start: Compile time:     Nov 17 2023 22:50:37[0m
+[0;32mI (234) cpu_start: ELF file SHA256:  4360590f6f86def9...[0m
+[0;32mI (240) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (246) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (250) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (255) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (260) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (267) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (273) heap_init: At 3FFB29C8 len 0002D638 (181 KiB): DRAM[0m
+[0;32mI (279) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (292) heap_init: At 4008BF90 len 00014070 (80 KiB): IRAM[0m
+[0;32mI (300) spi_flash: detected chip: generic[0m
+[0;32mI (303) spi_flash: flash io: dio[0m
+[0;32mI (308) app_start: Starting scheduler on CPU0[0m
+[0;32mI (312) app_start: Starting scheduler on CPU1[0m
+[0;32mI (312) main_task: Started on CPU0[0m
+[0;32mI (322) main_task: Calling app_main()[0m
+********************************
+* Setting...
+* Done setting
+********************************
+* Queue length: 5
+********************************
+[0;32mI (332) main_task: Returned from app_main()[0m
+[0;32mI (342) LAB4: 30ms, NewJeans want to sing the 1 sentence, Topic: "Once you play God, once you play God"[0m
+[0;32mI (352) LAB4: 40ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 4 slot availible in queue
+[0;32mI (362) LAB4: 50ms, NewJeans want to sing the 2 sentence, Topic: "They're gonna crumble one by one"[0m
+[0;32mI (372) LAB4: 60ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 3 slot availible in queue
+[0;32mI (372) LAB4: 60ms, NewJeans want to sing the 3 sentence, Topic: "Then we gon' ride right into the sun"[0m
+[0;32mI (382) LAB4: 70ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 2 slot availible in queue
+[0;32mI (392) LAB4: 80ms, NewJeans want to sing the 4 sentence, Topic: "Like it's the day my kingdom come"[0m
+[0;32mI (402) LAB4: 90ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 1 slot availible in queue
+[0;32mI (412) LAB4: 100ms, NewJeans want to sing the 5 sentence, Topic: "Baby, we're"[0m
+[0;32mI (422) LAB4: 110ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## No slot availible in queue, queue is full
+[0;32mI (432) LAB4: 120ms, NewJeans want to sing the 6 sentence, Topic: "Go-Go-Go-Go-Go-Gods"[0m
+[0;32mI (442) LAB4: 130ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
+[0;32mI (452) LAB4: 140ms, NewJeans want to sing the 20 sentence, Topic: "Got the bag!"[0m
+[0;32mI (462) LAB4: 150ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
+[0;32mI (1542) LAB4: at 1230ms, Noise voice is LOUDER [0m
+[0;32mI (1542) LAB4: at 1230ms,LOUDER [0m
+[0;32mI (1542) LAB4: at 1230ms,LOUDER [0m
+
+assert failed: xQueueGenericSend queue.c:874 (!( ( xCopyPosition == ( ( BaseType_t ) 2 ) ) && ( pxQueue->uxLength != 1 ) ))
+
+
+Backtrace: 0x40081722:0x3ffb7940 0x4008577d:0x3ffb7960 0x4008ac15:0x3ffb7980 0x40085b71:0x3ffb7aa0 0x400d56b7:0x3ffb7ae0 0x40087b99:0x3ffb7b20
+
+
+
+
+ELF file SHA256: 4360590f6f86def9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 17 2023 22:51:05[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09d48h ( 40264) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=00019d70 vaddr=3ffb0000 size=02158h (  8536) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001bed0 vaddr=40080000 size=04148h ( 16712) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14b34h ( 84788) map[0m
+[0;32mI (164) esp_image: segment 4: paddr=00034b5c vaddr=40084148 size=07e48h ( 32328) load[0m
+[0;32mI (184) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (184) boot: Disabling RNG early entropy source...[0m
+[0;32mI (195) cpu_start: Multicore app[0m
+[0;32mI (196) cpu_start: Pro cpu up.[0m
+[0;32mI (196) cpu_start: Starting app cpu, entry point is 0x400810f0[0m
+[0;32mI (183) cpu_start: App cpu up.[0m
+[0;32mI (214) cpu_start: Pro cpu start user code[0m
+[0;32mI (214) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (214) cpu_start: Application information:[0m
+[0;32mI (219) cpu_start: Project name:     lab04[0m
+[0;32mI (224) cpu_start: App version:      1.0[0m
+[0;32mI (228) cpu_start: Compile time:     Nov 17 2023 22:50:37[0m
+[0;32mI (234) cpu_start: ELF file SHA256:  4360590f6f86def9...[0m
+[0;32mI (240) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (246) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (250) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (255) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (260) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (267) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (273) heap_init: At 3FFB29C8 len 0002D638 (181 KiB): DRAM[0m
+[0;32mI (279) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (292) heap_init: At 4008BF90 len 00014070 (80 KiB): IRAM[0m
+[0;32mI (300) spi_flash: detected chip: generic[0m
+[0;32mI (303) spi_flash: flash io: dio[0m
+[0;32mI (308) app_start: Starting scheduler on CPU0[0m
+[0;32mI (312) app_start: Starting scheduler on CPU1[0m
+[0;32mI (312) main_task: Started on CPU0[0m
+[0;32mI (322) main_task: Calling app_main()[0m
+********************************
+* Setting...
+* Done setting
+********************************
+* Queue length: 5
+********************************
+[0;32mI (332) main_task: Returned from app_main()[0m
+[0;32mI (342) LAB4: 30ms, NewJeans want to sing the 1 sentence, Topic: "Once you play God, once you play God"[0m
+[0;32mI (352) LAB4: 40ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 4 slot availible in queue
+[0;32mI (362) LAB4: 50ms, NewJeans want to sing the 2 sentence, Topic: "They're gonna crumble one by one"[0m
+[0;32mI (372) LAB4: 60ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 3 slot availible in queue
+[0;32mI (372) LAB4: 60ms, NewJeans want to sing the 3 sentence, Topic: "Then we gon' ride right into the sun"[0m
+[0;32mI (382) LAB4: 70ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 2 slot availible in queue
+[0;32mI (392) LAB4: 80ms, NewJeans want to sing the 4 sentence, Topic: "Like it's the day my kingdom come"[0m
+[0;32mI (402) LAB4: 90ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 1 slot availible in queue
+[0;32mI (412) LAB4: 100ms, NewJeans want to sing the 5 sentence, Topic: "Baby, we're"[0m
+[0;32mI (422) LAB4: 110ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## No slot availible in queue, queue is full
+[0;32mI (432) LAB4: 120ms, NewJeans want to sing the 6 sentence, Topic: "Go-Go-Go-Go-Go-Gods"[0m
+[0;32mI (442) LAB4: 130ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
+[0;32mI (452) LAB4: 140ms, NewJeans want to sing the 20 sentence, Topic: "Got the bag!"[0m
+[0;32mI (462) LAB4: 150ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
+[0;32mI (1142) LAB4: at 830ms, Noise voice is LOUDER [0m
+[0;32mI (1142) LAB4: at 830ms,LOUDER [0m
+[0;32mI (1142) LAB4: at 830ms,LOUDER [0m
+
+assert failed: xQueueGenericSend queue.c:874 (!( ( xCopyPosition == ( ( BaseType_t ) 2 ) ) && ( pxQueue->uxLength != 1 ) ))
+
+
+Backtrace: 0x40081722:0x3ffb7940 0x4008577d:0x3ffb7960 0x4008ac15:0x3ffb7980 0x40085b71:0x3ffb7aa0 0x400d56b7:0x3ffb7ae0 0x40087b99:0x3ffb7b20
+
+
+
+
+ELF file SHA256: 4360590f6f86def9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 17 2023 22:51:05[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09d48h ( 40264) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=00019d70 vaddr=3ffb0000 size=02158h (  8536) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001bed0 vaddr=40080000 size=04148h ( 16712) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14b34h ( 84788) map[0m
+[0;32mI (164) esp_image: segment 4: paddr=00034b5c vaddr=40084148 size=07e48h ( 32328) load[0m
+[0;32mI (184) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (184) boot: Disabling RNG early entropy source...[0m
+[0;32mI (195) cpu_start: Multicore app[0m
+[0;32mI (196) cpu_start: Pro cpu up.[0m
+[0;32mI (196) cpu_start: Starting app cpu, entry point is 0x400810f0[0m
+[0;32mI (183) cpu_start: App cpu up.[0m
+[0;32mI (214) cpu_start: Pro cpu start user code[0m
+[0;32mI (214) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (214) cpu_start: Application information:[0m
+[0;32mI (219) cpu_start: Project name:     lab04[0m
+[0;32mI (224) cpu_start: App version:      1.0[0m
+[0;32mI (228) cpu_start: Compile time:     Nov 17 2023 22:50:37[0m
+[0;32mI (234) cpu_start: ELF file SHA256:  4360590f6f86def9...[0m
+[0;32mI (240) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (246) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (250) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (255) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (260) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (267) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (273) heap_init: At 3FFB29C8 len 0002D638 (181 KiB): DRAM[0m
+[0;32mI (279) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (292) heap_init: At 4008BF90 len 00014070 (80 KiB): IRAM[0m
+[0;32mI (300) spi_flash: detected chip: generic[0m
+[0;32mI (303) spi_flash: flash io: dio[0m
+[0;32mI (308) app_start: Starting scheduler on CPU0[0m
+[0;32mI (312) app_start: Starting scheduler on CPU1[0m
+[0;32mI (312) main_task: Started on CPU0[0m
+[0;32mI (322) main_task: Calling app_main()[0m
+********************************
+* Setting...
+* Done setting
+********************************
+* Queue length: 5
+********************************
+[0;32mI (332) main_task: Returned from app_main()[0m
+[0;32mI (342) LAB4: 30ms, NewJeans want to sing the 1 sentence, Topic: "Once you play God, once you play God"[0m
+[0;32mI (352) LAB4: 40ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 4 slot availible in queue
+[0;32mI (362) LAB4: 50ms, NewJeans want to sing the 2 sentence, Topic: "They're gonna crumble one by one"[0m
+[0;32mI (372) LAB4: 60ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 3 slot availible in queue
+[0;32mI (372) LAB4: 60ms, NewJeans want to sing the 3 sentence, Topic: "Then we gon' ride right into the sun"[0m
+[0;32mI (382) LAB4: 70ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 2 slot availible in queue
+[0;32mI (392) LAB4: 80ms, NewJeans want to sing the 4 sentence, Topic: "Like it's the day my kingdom come"[0m
+[0;32mI (402) LAB4: 90ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 1 slot availible in queue
+[0;32mI (412) LAB4: 100ms, NewJeans want to sing the 5 sentence, Topic: "Baby, we're"[0m
+[0;32mI (422) LAB4: 110ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## No slot availible in queue, queue is full
+[0;32mI (432) LAB4: 120ms, NewJeans want to sing the 6 sentence, Topic: "Go-Go-Go-Go-Go-Gods"[0m
+[0;32mI (442) LAB4: 130ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
+[0;32mI (452) LAB4: 140ms, NewJeans want to sing the 20 sentence, Topic: "Got the bag!"[0m
+[0;32mI (462) LAB4: 150ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
+[0;32mI (1342) LAB4: at 1030ms, Noise voice is LOUDER [0m
+[0;32mI (1342) LAB4: at 1030ms,LOUDER [0m
+[0;32mI (1342) LAB4: at 1030ms,LOUDER [0m
+
+assert failed: xQueueGenericSend queue.c:874 (!( ( xCopyPosition == ( ( BaseType_t ) 2 ) ) && ( pxQueue->uxLength != 1 ) ))
+
+
+Backtrace: 0x40081722:0x3ffb7940 0x4008577d:0x3ffb7960 0x4008ac15:0x3ffb7980 0x40085b71:0x3ffb7aa0 0x400d56b7:0x3ffb7ae0 0x40087b99:0x3ffb7b20
+
+
+
+
+ELF file SHA256: 4360590f6f86def9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 17 2023 22:51:05[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09d48h ( 40264) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=00019d70 vaddr=3ffb0000 size=02158h (  8536) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001bed0 vaddr=40080000 size=04148h ( 16712) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14b34h ( 84788) map[0m
+[0;32mI (164) esp_image: segment 4: paddr=00034b5c vaddr=40084148 size=07e48h ( 32328) load[0m
+[0;32mI (184) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (184) boot: Disabling RNG early entropy source...[0m
+[0;32mI (195) cpu_start: Multicore app[0m
+[0;32mI (196) cpu_start: Pro cpu up.[0m
+[0;32mI (196) cpu_start: Starting app cpu, entry point is 0x400810f0[0m
+[0;32mI (183) cpu_start: App cpu up.[0m
+[0;32mI (214) cpu_start: Pro cpu start user code[0m
+[0;32mI (214) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (214) cpu_start: Application information:[0m
+[0;32mI (219) cpu_start: Project name:     lab04[0m
+[0;32mI (224) cpu_start: App version:      1.0[0m
+[0;32mI (228) cpu_start: Compile time:     Nov 17 2023 22:50:37[0m
+[0;32mI (234) cpu_start: ELF file SHA256:  4360590f6f86def9...[0m
+[0;32mI (240) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (246) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (250) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (255) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (260) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (267) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (273) heap_init: At 3FFB29C8 len 0002D638 (181 KiB): DRAM[0m
+[0;32mI (279) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (292) heap_init: At 4008BF90 len 00014070 (80 KiB): IRAM[0m
+[0;32mI (300) spi_flash: detected chip: generic[0m
+[0;32mI (303) spi_flash: flash io: dio[0m
+[0;32mI (308) app_start: Starting scheduler on CPU0[0m
+[0;32mI (312) app_start: Starting scheduler on CPU1[0m
+[0;32mI (312) main_task: Started on CPU0[0m
+[0;32mI (322) main_task: Calling app_main()[0m
+********************************
+* Setting...
+* Done setting
+********************************
+* Queue length: 5
+********************************
+[0;32mI (332) main_task: Returned from app_main()[0m
+[0;32mI (342) LAB4: 30ms, NewJeans want to sing the 1 sentence, Topic: "Once you play God, once you play God"[0m
+[0;32mI (352) LAB4: 40ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 4 slot availible in queue
+[0;32mI (362) LAB4: 50ms, NewJeans want to sing the 2 sentence, Topic: "They're gonna crumble one by one"[0m
+[0;32mI (372) LAB4: 60ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 3 slot availible in queue
+[0;32mI (372) LAB4: 60ms, NewJeans want to sing the 3 sentence, Topic: "Then we gon' ride right into the sun"[0m
+[0;32mI (382) LAB4: 70ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 2 slot availible in queue
+[0;32mI (392) LAB4: 80ms, NewJeans want to sing the 4 sentence, Topic: "Like it's the day my kingdom come"[0m
+[0;32mI (402) LAB4: 90ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 1 slot availible in queue
+[0;32mI (412) LAB4: 100ms, NewJeans want to sing the 5 sentence, Topic: "Baby, we're"[0m
+[0;32mI (422) LAB4: 110ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## No slot availible in queue, queue is full
+[0;32mI (432) LAB4: 120ms, NewJeans want to sing the 6 sentence, Topic: "Go-Go-Go-Go-Go-Gods"[0m
+[0;32mI (442) LAB4: 130ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
+[0;32mI (452) LAB4: 140ms, NewJeans want to sing the 20 sentence, Topic: "Got the bag!"[0m
+[0;32mI (462) LAB4: 150ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
+[0;32mI (1742) LAB4: at 1430ms, Noise voice is LOUDER [0m
+[0;32mI (1742) LAB4: at 1430ms,LOUDER [0m
+[0;32mI (1742) LAB4: at 1430ms,LOUDER [0m
+
+assert failed: xQueueGenericSend queue.c:874 (!( ( xCopyPosition == ( ( BaseType_t ) 2 ) ) && ( pxQueue->uxLength != 1 ) ))
+
+
+Backtrace: 0x40081722:0x3ffb7940 0x4008577d:0x3ffb7960 0x4008ac15:0x3ffb7980 0x40085b71:0x3ffb7aa0 0x400d56b7:0x3ffb7ae0 0x40087b99:0x3ffb7b20
+
+
+
+
+ELF file SHA256: 4360590f6f86def9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 17 2023 22:51:05[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09d48h ( 40264) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=00019d70 vaddr=3ffb0000 size=02158h (  8536) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001bed0 vaddr=40080000 size=04148h ( 16712) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14b34h ( 84788) map[0m
+[0;32mI (164) esp_image: segment 4: paddr=00034b5c vaddr=40084148 size=07e48h ( 32328) load[0m
+[0;32mI (184) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (184) boot: Disabling RNG early entropy source...[0m
+[0;32mI (195) cpu_start: Multicore app[0m
+[0;32mI (196) cpu_start: Pro cpu up.[0m
+[0;32mI (196) cpu_start: Starting app cpu, entry point is 0x400810f0[0m
+[0;32mI (183) cpu_start: App cpu up.[0m
+[0;32mI (214) cpu_start: Pro cpu start user code[0m
+[0;32mI (214) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (214) cpu_start: Application information:[0m
+[0;32mI (219) cpu_start: Project name:     lab04[0m
+[0;32mI (224) cpu_start: App version:      1.0[0m
+[0;32mI (228) cpu_start: Compile time:     Nov 17 2023 22:50:37[0m
+[0;32mI (234) cpu_start: ELF file SHA256:  4360590f6f86def9...[0m
+[0;32mI (240) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (246) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (250) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (255) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (260) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (267) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (273) heap_init: At 3FFB29C8 len 0002D638 (181 KiB): DRAM[0m
+[0;32mI (279) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (292) heap_init: At 4008BF90 len 00014070 (80 KiB): IRAM[0m
+[0;32mI (300) spi_flash: detected chip: generic[0m
+[0;32mI (303) spi_flash: flash io: dio[0m
+[0;32mI (308) app_start: Starting scheduler on CPU0[0m
+[0;32mI (312) app_start: Starting scheduler on CPU1[0m
+[0;32mI (312) main_task: Started on CPU0[0m
+[0;32mI (322) main_task: Calling app_main()[0m
+********************************
+* Setting...
+* Done setting
+********************************
+* Queue length: 5
+********************************
+[0;32mI (332) main_task: Returned from app_main()[0m
+[0;32mI (342) LAB4: 30ms, NewJeans want to sing the 1 sentence, Topic: "Once you play God, once you play God"[0m
+[0;32mI (352) LAB4: 40ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 4 slot availible in queue
+[0;32mI (362) LAB4: 50ms, NewJeans want to sing the 2 sentence, Topic: "They're gonna crumble one by one"[0m
+[0;32mI (372) LAB4: 60ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 3 slot availible in queue
+[0;32mI (372) LAB4: 60ms, NewJeans want to sing the 3 sentence, Topic: "Then we gon' ride right into the sun"[0m
+[0;32mI (382) LAB4: 70ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 2 slot availible in queue
+[0;32mI (392) LAB4: 80ms, NewJeans want to sing the 4 sentence, Topic: "Like it's the day my kingdom come"[0m
+[0;32mI (402) LAB4: 90ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 1 slot availible in queue
+[0;32mI (412) LAB4: 100ms, NewJeans want to sing the 5 sentence, Topic: "Baby, we're"[0m
+[0;32mI (422) LAB4: 110ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## No slot availible in queue, queue is full
+[0;32mI (432) LAB4: 120ms, NewJeans want to sing the 6 sentence, Topic: "Go-Go-Go-Go-Go-Gods"[0m
+[0;32mI (442) LAB4: 130ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
+[0;32mI (452) LAB4: 140ms, NewJeans want to sing the 20 sentence, Topic: "Got the bag!"[0m
+[0;32mI (462) LAB4: 150ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
+[0;32mI (1742) LAB4: at 1430ms, Noise voice is LOUDER [0m
+[0;32mI (1742) LAB4: at 1430ms,LOUDER [0m
+[0;32mI (1742) LAB4: at 1430ms,LOUDER [0m
+
+assert failed: xQueueGenericSend queue.c:874 (!( ( xCopyPosition == ( ( BaseType_t ) 2 ) ) && ( pxQueue->uxLength != 1 ) ))
+
+
+Backtrace: 0x40081722:0x3ffb7940 0x4008577d:0x3ffb7960 0x4008ac15:0x3ffb7980 0x40085b71:0x3ffb7aa0 0x400d56b7:0x3ffb7ae0 0x40087b99:0x3ffb7b20
+
+
+
+
+ELF file SHA256: 4360590f6f86def9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 17 2023 22:51:05[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09d48h ( 40264) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=00019d70 vaddr=3ffb0000 size=02158h (  8536) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001bed0 vaddr=40080000 size=04148h ( 16712) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14b34h ( 84788) map[0m
+[0;32mI (164) esp_image: segment 4: paddr=00034b5c vaddr=40084148 size=07e48h ( 32328) load[0m
+[0;32mI (184) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (184) boot: Disabling RNG early entropy source...[0m
+[0;32mI (195) cpu_start: Multicore app[0m
+[0;32mI (196) cpu_start: Pro cpu up.[0m
+[0;32mI (196) cpu_start: Starting app cpu, entry point is 0x400810f0[0m
+[0;32mI (183) cpu_start: App cpu up.[0m
+[0;32mI (214) cpu_start: Pro cpu start user code[0m
+[0;32mI (214) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (214) cpu_start: Application information:[0m
+[0;32mI (219) cpu_start: Project name:     lab04[0m
+[0;32mI (224) cpu_start: App version:      1.0[0m
+[0;32mI (228) cpu_start: Compile time:     Nov 17 2023 22:50:37[0m
+[0;32mI (234) cpu_start: ELF file SHA256:  4360590f6f86def9...[0m
+[0;32mI (240) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (246) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (250) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (255) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (260) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (267) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (273) heap_init: At 3FFB29C8 len 0002D638 (181 KiB): DRAM[0m
+[0;32mI (279) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (292) heap_init: At 4008BF90 len 00014070 (80 KiB): IRAM[0m
+[0;32mI (300) spi_flash: detected chip: generic[0m
+[0;32mI (303) spi_flash: flash io: dio[0m
+[0;32mI (308) app_start: Starting scheduler on CPU0[0m
+[0;32mI (312) app_start: Starting scheduler on CPU1[0m
+[0;32mI (312) main_task: Started on CPU0[0m
+[0;32mI (322) main_task: Calling app_main()[0m
+********************************
+* Setting...
+* Done setting
+********************************
+* Queue length: 5
+********************************
+[0;32mI (332) main_task: Returned from app_main()[0m
+[0;32mI (342) LAB4: 30ms, NewJeans want to sing the 1 sentence, Topic: "Once you play God, once you play God"[0m
+[0;32mI (352) LAB4: 40ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 4 slot availible in queue
+[0;32mI (362) LAB4: 50ms, NewJeans want to sing the 2 sentence, Topic: "They're gonna crumble one by one"[0m
+[0;32mI (372) LAB4: 60ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 3 slot availible in queue
+[0;32mI (372) LAB4: 60ms, NewJeans want to sing the 3 sentence, Topic: "Then we gon' ride right into the sun"[0m
+[0;32mI (382) LAB4: 70ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 2 slot availible in queue
+[0;32mI (392) LAB4: 80ms, NewJeans want to sing the 4 sentence, Topic: "Like it's the day my kingdom come"[0m
+[0;32mI (402) LAB4: 90ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 1 slot availible in queue
+[0;32mI (412) LAB4: 100ms, NewJeans want to sing the 5 sentence, Topic: "Baby, we're"[0m
+[0;32mI (422) LAB4: 110ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## No slot availible in queue, queue is full
+[0;32mI (432) LAB4: 120ms, NewJeans want to sing the 6 sentence, Topic: "Go-Go-Go-Go-Go-Gods"[0m
+[0;32mI (442) LAB4: 130ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
+[0;32mI (452) LAB4: 140ms, NewJeans want to sing the 20 sentence, Topic: "Got the bag!"[0m
+[0;32mI (462) LAB4: 150ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
+[0;32mI (110942) LAB4: at 110630ms, Noise voice is LOUDER [0m
+[0;32mI (110942) LAB4: at 110630ms,LOUDER [0m
+[0;32mI (110942) LAB4: at 110630ms,LOUDER [0m
+
+assert failed: xQueueGenericSend queue.c:874 (!( ( xCopyPosition == ( ( BaseType_t ) 2 ) ) && ( pxQueue->uxLength != 1 ) ))
+
+
+Backtrace: 0x40081722:0x3ffb7940 0x4008577d:0x3ffb7960 0x4008ac15:0x3ffb7980 0x40085b71:0x3ffb7aa0 0x400d56b7:0x3ffb7ae0 0x40087b99:0x3ffb7b20
+
+
+
+
+ELF file SHA256: 4360590f6f86def9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 17 2023 22:51:05[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09d48h ( 40264) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=00019d70 vaddr=3ffb0000 size=02158h (  8536) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001bed0 vaddr=40080000 size=04148h ( 16712) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14b34h ( 84788) map[0m
+[0;32mI (164) esp_image: segment 4: paddr=00034b5c vaddr=40084148 size=07e48h ( 32328) load[0m
+[0;32mI (184) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (184) boot: Disabling RNG early entropy source...[0m
+[0;32mI (195) cpu_start: Multicore app[0m
+[0;32mI (196) cpu_start: Pro cpu up.[0m
+[0;32mI (196) cpu_start: Starting app cpu, entry point is 0x400810f0[0m
+[0;32mI (183) cpu_start: App cpu up.[0m
+[0;32mI (214) cpu_start: Pro cpu start user code[0m
+[0;32mI (214) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (214) cpu_start: Application information:[0m
+[0;32mI (219) cpu_start: Project name:     lab04[0m
+[0;32mI (224) cpu_start: App version:      1.0[0m
+[0;32mI (228) cpu_start: Compile time:     Nov 17 2023 22:50:37[0m
+[0;32mI (234) cpu_start: ELF file SHA256:  4360590f6f86def9...[0m
+[0;32mI (240) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (246) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (250) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (255) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (260) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (267) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (273) heap_init: At 3FFB29C8 len 0002D638 (181 KiB): DRAM[0m
+[0;32mI (279) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (292) heap_init: At 4008BF90 len 00014070 (80 KiB): IRAM[0m
+[0;32mI (300) spi_flash: detected chip: generic[0m
+[0;32mI (303) spi_flash: flash io: dio[0m
+[0;32mI (308) app_start: Starting scheduler on CPU0[0m
+[0;32mI (312) app_start: Starting scheduler on CPU1[0m
+[0;32mI (312) main_task: Started on CPU0[0m
+[0;32mI (322) main_task: Calling app_main()[0m
+********************************
+* Setting...
+* Done setting
+********************************
+* Queue length: 5
+********************************
+[0;32mI (332) main_task: Returned from app_main()[0m
+[0;32mI (342) LAB4: 30ms, NewJeans want to sing the 1 sentence, Topic: "Once you play God, once you play God"[0m
+[0;32mI (352) LAB4: 40ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 4 slot availible in queue
+[0;32mI (362) LAB4: 50ms, NewJeans want to sing the 2 sentence, Topic: "They're gonna crumble one by one"[0m
+[0;32mI (372) LAB4: 60ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 3 slot availible in queue
+[0;32mI (372) LAB4: 60ms, NewJeans want to sing the 3 sentence, Topic: "Then we gon' ride right into the sun"[0m
+[0;32mI (382) LAB4: 70ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 2 slot availible in queue
+[0;32mI (392) LAB4: 80ms, NewJeans want to sing the 4 sentence, Topic: "Like it's the day my kingdom come"[0m
+[0;32mI (402) LAB4: 90ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 1 slot availible in queue
+[0;32mI (412) LAB4: 100ms, NewJeans want to sing the 5 sentence, Topic: "Baby, we're"[0m
+[0;32mI (422) LAB4: 110ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## No slot availible in queue, queue is full
+[0;32mI (432) LAB4: 120ms, NewJeans want to sing the 6 sentence, Topic: "Go-Go-Go-Go-Go-Gods"[0m
+[0;32mI (442) LAB4: 130ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
+[0;32mI (452) LAB4: 140ms, NewJeans want to sing the 20 sentence, Topic: "Got the bag!"[0m
+[0;32mI (462) LAB4: 150ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
+[0;32mI (1142) LAB4: at 830ms, Noise voice is LOUDER [0m
+[0;32mI (1142) LAB4: at 830ms,LOUDER [0m
+[0;32mI (1142) LAB4: at 830ms,LOUDER [0m
+
+assert failed: xQueueGenericSend queue.c:874 (!( ( xCopyPosition == ( ( BaseType_t ) 2 ) ) && ( pxQueue->uxLength != 1 ) ))
+
+
+Backtrace: 0x40081722:0x3ffb7940 0x4008577d:0x3ffb7960 0x4008ac15:0x3ffb7980 0x40085b71:0x3ffb7aa0 0x400d56b7:0x3ffb7ae0 0x40087b99:0x3ffb7b20
+
+
+
+
+ELF file SHA256: 4360590f6f86def9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 17 2023 22:51:05[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09d48h ( 40264) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=00019d70 vaddr=3ffb0000 size=02158h (  8536) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001bed0 vaddr=40080000 size=04148h ( 16712) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14b34h ( 84788) map[0m
+[0;32mI (164) esp_image: segment 4: paddr=00034b5c vaddr=40084148 size=07e48h ( 32328) load[0m
+[0;32mI (184) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (184) boot: Disabling RNG early entropy source...[0m
+[0;32mI (195) cpu_start: Multicore app[0m
+[0;32mI (196) cpu_start: Pro cpu up.[0m
+[0;32mI (196) cpu_start: Starting app cpu, entry point is 0x400810f0[0m
+[0;32mI (183) cpu_start: App cpu up.[0m
+[0;32mI (214) cpu_start: Pro cpu start user code[0m
+[0;32mI (214) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (214) cpu_start: Application information:[0m
+[0;32mI (219) cpu_start: Project name:     lab04[0m
+[0;32mI (224) cpu_start: App version:      1.0[0m
+[0;32mI (228) cpu_start: Compile time:     Nov 17 2023 22:50:37[0m
+[0;32mI (234) cpu_start: ELF file SHA256:  4360590f6f86def9...[0m
+[0;32mI (240) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (246) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (250) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (255) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (260) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (267) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (273) heap_init: At 3FFB29C8 len 0002D638 (181 KiB): DRAM[0m
+[0;32mI (279) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (292) heap_init: At 4008BF90 len 00014070 (80 KiB): IRAM[0m
+[0;32mI (300) spi_flash: detected chip: generic[0m
+[0;32mI (303) spi_flash: flash io: dio[0m
+[0;32mI (308) app_start: Starting scheduler on CPU0[0m
+[0;32mI (312) app_start: Starting scheduler on CPU1[0m
+[0;32mI (312) main_task: Started on CPU0[0m
+[0;32mI (322) main_task: Calling app_main()[0m
+********************************
+* Setting...
+* Done setting
+********************************
+* Queue length: 5
+********************************
+[0;32mI (332) main_task: Returned from app_main()[0m
+[0;32mI (342) LAB4: 30ms, NewJeans want to sing the 1 sentence, Topic: "Once you play God, once you play God"[0m
+[0;32mI (352) LAB4: 40ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 4 slot availible in queue
+[0;32mI (362) LAB4: 50ms, NewJeans want to sing the 2 sentence, Topic: "They're gonna crumble one by one"[0m
+[0;32mI (372) LAB4: 60ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 3 slot availible in queue
+[0;32mI (372) LAB4: 60ms, NewJeans want to sing the 3 sentence, Topic: "Then we gon' ride right into the sun"[0m
+[0;32mI (382) LAB4: 70ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 2 slot availible in queue
+[0;32mI (392) LAB4: 80ms, NewJeans want to sing the 4 sentence, Topic: "Like it's the day my kingdom come"[0m
+[0;32mI (402) LAB4: 90ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 1 slot availible in queue
+[0;32mI (412) LAB4: 100ms, NewJeans want to sing the 5 sentence, Topic: "Baby, we're"[0m
+[0;32mI (422) LAB4: 110ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## No slot availible in queue, queue is full
+[0;32mI (432) LAB4: 120ms, NewJeans want to sing the 6 sentence, Topic: "Go-Go-Go-Go-Go-Gods"[0m
+[0;32mI (442) LAB4: 130ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
+[0;32mI (452) LAB4: 140ms, NewJeans want to sing the 20 sentence, Topic: "Got the bag!"[0m
+[0;32mI (462) LAB4: 150ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
+[0;32mI (1142) LAB4: at 830ms, Noise voice is LOUDER [0m
+[0;32mI (1142) LAB4: at 830ms,LOUDER [0m
+[0;32mI (1142) LAB4: at 830ms,LOUDER [0m
+
+assert failed: xQueueGenericSend queue.c:874 (!( ( xCopyPosition == ( ( BaseType_t ) 2 ) ) && ( pxQueue->uxLength != 1 ) ))
+
+
+Backtrace: 0x40081722:0x3ffb7940 0x4008577d:0x3ffb7960 0x4008ac15:0x3ffb7980 0x40085b71:0x3ffb7aa0 0x400d56b7:0x3ffb7ae0 0x40087b99:0x3ffb7b20
+
+
+
+
+ELF file SHA256: 4360590f6f86def9
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 17 2023 22:51:05[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09d48h ( 40264) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=00019d70 vaddr=3ffb0000 size=02158h (  8536) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001bed0 vaddr=40080000 size=04148h ( 16712) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14b34h ( 84788) map[0m
+[0;32mI (164) esp_image: segment 4: paddr=00034b5c vaddr=40084148 size=07e48h ( 32328) load[0m
+[0;32mI (184) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (184) boot: Disabling RNG early entropy source...[0m
+[0;32mI (195) cpu_start: Multicore app[0m
+[0;32mI (196) cpu_start: Pro cpu up.[0m
+[0;32mI (196) cpu_start: Starting app cpu, entry point is 0x400810f0[0m
+[0;32mI (183) cpu_start: App cpu up.[0m
+[0;32mI (214) cpu_start: Pro cpu start user code[0m
+[0;32mI (214) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (214) cpu_start: Application information:[0m
+[0;32mI (219) cpu_start: Project name:     lab04[0m
+[0;32mI (224) cpu_start: App version:      1.0[0m
+[0;32mI (228) cpu_start: Compile time:     Nov 17 2023 22:50:37[0m
+[0;32mI (234) cpu_start: ELF file SHA256:  4360590f6f86def9...[0m
+[0;32mI (240) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (246) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (250) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (255) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (260) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (267) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (273) heap_init: At 3FFB29C8 len 0002D638 (181 KiB): DRAM[0m
+[0;32mI (279) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (292) heap_init: At 4008BF90 len 00014070 (80 KiB): IRAM[0m
+[0;32mI (300) spi_flash: detected chip: generic[0m
+[0;32mI (303) spi_flash: flash io: dio[0m
+[0;32mI (308) app_start: Starting scheduler on CPU0[0m
+[0;32mI (312) app_start: Starting scheduler on CPU1[0m
+[0;32mI (312) main_task: Started on CPU0[0m
+[0;32mI (322) main_task: Calling app_main()[0m
+********************************
+* Setting...
+* Done setting
+********************************
+* Queue length: 5
+********************************
+[0;32mI (332) main_task: Returned from app_main()[0m
+[0;32mI (342) LAB4: 30ms, NewJeans want to sing the 1 sentence, Topic: "Once you play God, once you play God"[0m
+[0;32mI (352) LAB4: 40ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 4 slot availible in queue
+[0;32mI (362) LAB4: 50ms, NewJeans want to sing the 2 sentence, Topic: "They're gonna crumble one by one"[0m
+[0;32mI (372) LAB4: 60ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 3 slot availible in queue
+[0;32mI (372) LAB4: 60ms, NewJeans want to sing the 3 sentence, Topic: "Then we gon' ride right into the sun"[0m
+[0;32mI (382) LAB4: 70ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 2 slot availible in queue
+[0;32mI (392) LAB4: 80ms, NewJeans want to sing the 4 sentence, Topic: "Like it's the day my kingdom come"[0m
+[0;32mI (402) LAB4: 90ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## 1 slot availible in queue
+[0;32mI (412) LAB4: 100ms, NewJeans want to sing the 5 sentence, Topic: "Baby, we're"[0m
+[0;32mI (422) LAB4: 110ms, NewJeans sing, they "AVALIABLE" to sing[0m
+## No slot availible in queue, queue is full
+[0;32mI (432) LAB4: 120ms, NewJeans want to sing the 6 sentence, Topic: "Go-Go-Go-Go-Go-Gods"[0m
+[0;32mI (442) LAB4: 130ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
+[0;32mI (452) LAB4: 140ms, NewJeans want to sing the 20 sentence, Topic: "Got the bag!"[0m
+[0;32mI (462) LAB4: 150ms, NewJeans do not sing anymore, they are "OVERLOADED"[0m
+## No slot availible in queue, queue is full
