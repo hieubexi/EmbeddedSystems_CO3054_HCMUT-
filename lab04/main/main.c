@@ -29,7 +29,7 @@ static char *god_lyrics[] = {
     "Like it's the day my kingdom come",
     "Baby, we're",
     "Go-Go-Go-Go-Go-Gods"};
-
+int length_lyrics=sizeof(god_lyrics) / sizeof(god_lyrics[0]);
 lyric_t create_lyric(uint32_t input_index, char *input_content)
 {
     lyric_t *self = malloc(sizeof(lyric_t));
@@ -80,8 +80,8 @@ void distribute_lyrics(void *pvParameter)
     perform_set = xQueueCreate(__MAXLEN__, sizeof(lyric_t));
 
     // Create valid items
-    lyric_t lyric[6];
-    for (uint32_t i = 0; i < 6; i++)
+    lyric_t lyric[length_lyrics];
+    for (uint32_t i = 0; i < length_lyrics; i++)
     {
         lyric[i] = create_lyric(i + 1, god_lyrics[i]);
     }
@@ -90,16 +90,26 @@ void distribute_lyrics(void *pvParameter)
     lyric_t noise_sentence2 = create_lyric(766, "!H@#I$&E*.,U#$/");
     lyric_t noise_sentence3 = create_lyric(382, "g!@#g$&w*.,p#$/");
 
-    send_lyric(perform_set, lyric[0]);
-    send_lyric(perform_set, lyric[1]);
-    send_lyric(perform_set, lyric[2]);
+    int idx=0;
+    for(;idx<length_lyrics/2;idx++){
+        send_lyric(perform_set, lyric[idx]);
+    }
+    // send_lyric(perform_set, lyric[0]);
+    // send_lyric(perform_set, lyric[1]);
+    // send_lyric(perform_set, lyric[2]);
     // send noise
     send_lyric(perform_set, noise_sentence1);
-    send_lyric(perform_set, lyric[3]);
-    send_lyric(perform_set, lyric[4]);
+    for(;idx<length_lyrics-length_lyrics/6;idx++){
+        send_lyric(perform_set, lyric[idx]);
+    }
+    // send_lyric(perform_set, lyric[3]);
+    // send_lyric(perform_set, lyric[4]);
      // send noise
     send_lyric(perform_set, noise_sentence2);
-    send_lyric(perform_set, lyric[5]);
+    for(;idx<length_lyrics;idx++){
+        send_lyric(perform_set, lyric[idx]);
+    }
+    // send_lyric(perform_set, lyric[5]);
      // send noise
     send_lyric(perform_set, noise_sentence3);
 
