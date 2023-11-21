@@ -4,7 +4,8 @@
         "*.embeddedhtml": "html",
         "freertos.h": "c",
         "esp32_perfmon.h": "c",
-        "esp_err.h": "c"
+        "esp_err.h": "c",
+        "sdkconfig.h": "c"
     },
     "idf.portWin": "COM6"
 }

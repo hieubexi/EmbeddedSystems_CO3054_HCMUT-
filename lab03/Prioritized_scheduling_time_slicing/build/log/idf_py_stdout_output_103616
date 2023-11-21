@@ -1,0 +1,66 @@
+�x��x��x��x��x��x��xRRRRRRRRjets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7080
+load:0x40078000,len:15476
+load:0x40080400,len:4
+load:0x40080404,len:3668
+entry 0x4008061c
+[0;32mI (29) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Nov 11 2023 21:17:27[0m
+[0;33mW (30) boot: Unicore bootloader[0m
+[0;32mI (34) boot: chip revision: v3.0[0m
+[0;32mI (38) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (42) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (47) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (51) boot: Enabling RNG early entropy source...[0m
+[0;32mI (57) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (68) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (75) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (83) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (90) boot: End of partition table[0m
+[0;32mI (94) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=089ech ( 35308) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00018a14 vaddr=3ffb0000 size=01694h (  5780) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=0001a0b0 vaddr=40080000 size=05f68h ( 24424) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=133cch ( 78796) map[0m
+[0;32mI (161) esp_image: segment 4: paddr=000333f4 vaddr=40085f68 size=04d90h ( 19856) load[0m
+[0;32mI (175) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (175) boot: Disabling RNG early entropy source...[0m
+[0;32mI (186) cpu_start: Unicore app[0m
+[0;32mI (187) cpu_start: Pro cpu up.[0m
+[0;32mI (187) cpu_start: Single core mode[0m
+[0;32mI (198) cpu_start: Pro cpu start user code[0m
+[0;32mI (198) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (198) cpu_start: Application information:[0m
+[0;32mI (203) cpu_start: Project name:     lab03[0m
+[0;32mI (208) cpu_start: App version:      1.0[0m
+[0;32mI (213) cpu_start: Compile time:     Nov 11 2023 21:17:08[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  d2143bf277554da3...[0m
+[0;32mI (225) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (230) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (235) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (240) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (245) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (252) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (258) heap_init: At 3FFB1E20 len 0002E1E0 (184 KiB): DRAM[0m
+[0;32mI (264) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM[0m
+[0;32mI (270) heap_init: At 40078000 len 00008000 (32 KiB): IRAM[0m
+[0;32mI (276) heap_init: At 4008ACF8 len 00015308 (84 KiB): IRAM[0m
+[0;32mI (283) heap_init: At 3FF80000 len 00002000 (8 KiB): RTCRAM[0m
+[0;32mI (290) spi_flash: detected chip: generic[0m
+[0;32mI (294) spi_flash: flash io: dio[0m
+[0;32mI (298) app_start: Starting scheduler on CPU0[0m
+[0;32mI (303) main_task: Started on CPU0[0m
+[0;32mI (303) main_task: Calling app_main()[0m
+********************************
+* At 10 ms, GD sing
+* Ayo, what up VietNam, guess who is back!
+
+********************************
+* At 2610 ms, Jack come and snatched the mic
+* At 2610 ms, Jack come and broke the show. his voice be like : "$" 
+$[0;32mI (2963) main_task: Returned from app_main()[0m

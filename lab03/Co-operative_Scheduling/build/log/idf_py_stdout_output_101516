@@ -1,0 +1,87 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7080
+load:0x40078000,len:15476
+load:0x40080400,len:4
+load:0x40080404,len:3668
+entry 0x4008061c
+[0;32mI (29) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Nov 11 2023 22:15:18[0m
+[0;33mW (30) boot: Unicore bootloader[0m
+[0;32mI (34) boot: chip revision: v3.0[0m
+[0;32mI (38) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (42) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (47) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (51) boot: Enabling RNG early entropy source...[0m
+[0;32mI (57) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (68) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (75) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (83) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (90) boot: End of partition table[0m
+[0;32mI (94) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=089d4h ( 35284) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=000189fc vaddr=3ffb0000 size=016b4h (  5812) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=0001a0b8 vaddr=40080000 size=05f60h ( 24416) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13488h ( 78984) map[0m
+[0;32mI (161) esp_image: segment 4: paddr=000334b0 vaddr=40085f60 size=04d08h ( 19720) load[0m
+[0;32mI (175) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (175) boot: Disabling RNG early entropy source...[0m
+[0;32mI (186) cpu_start: Unicore app[0m
+[0;32mI (187) cpu_start: Pro cpu up.[0m
+[0;32mI (187) cpu_start: Single core mode[0m
+[0;32mI (198) cpu_start: Pro cpu start user code[0m
+[0;32mI (198) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (198) cpu_start: Application information:[0m
+[0;32mI (203) cpu_start: Project name:     Co-operative_Scheduling[0m
+[0;32mI (210) cpu_start: App version:      1.0[0m
+[0;32mI (214) cpu_start: Compile time:     Nov 11 2023 22:14:47[0m
+[0;32mI (220) cpu_start: ELF file SHA256:  e856bfe4065b53b3...[0m
+[0;32mI (226) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (232) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (236) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (241) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (246) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (253) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 3FFB1E40 len 0002E1C0 (184 KiB): DRAM[0m
+[0;32mI (265) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM[0m
+[0;32mI (272) heap_init: At 40078000 len 00008000 (32 KiB): IRAM[0m
+[0;32mI (278) heap_init: At 4008AC68 len 00015398 (84 KiB): IRAM[0m
+[0;32mI (284) heap_init: At 3FF80000 len 00002000 (8 KiB): RTCRAM[0m
+[0;32mI (292) spi_flash: detected chip: generic[0m
+[0;32mI (295) spi_flash: flash io: dio[0m
+[0;32mI (299) app_start: Starting scheduler on CPU0[0m
+[0;32mI (304) main_task: Started on CPU0[0m
+[0;32mI (304) main_task: Calling app_main()[0m
+********************************
+* At 10 ms, GD sing 
+* Ayo, what up VietNam, guess who is back!
+[0;32mI (2414) main_task: Returned from app_main()[0m
+********************************
+* At 2110 ms, Jack come
+* At 2110 ms, Jack come and broke the show. his voice be like : "$" 
+$********************************
+* At 2170 ms, BackPink sing 
+* BackPink in your area!
+$$$$$$$$* BackPink in your area!
+$* Ayo, what up VietNam, guess who is back!
+$* BackPink in your area!
+$$$$$$$$* BackPink in your area!
+$* Ayo, what up VietNam, guess who is back!
+$* BackPink in your area!
+$$$$$$$$* BackPink in your area!
+$* Ayo, what up VietNam, guess who is back!
+$* BackPink in your area!
+$$$$$$$$* BackPink in your area!
+$* Ayo, what up VietNam, guess who is back!
+$* BackPink in your area!
+$$$$$$$$* BackPink in your area!
+$* Ayo, what up VietNam, guess who is back!
+$* BackPink in your area!
+$$$$$$$$* BackPink in your area!
+$* Ayo, what up VietNam, guess who is back!
+$* BackPink in your area!
+$$$$$$$$* BackPink in your area!

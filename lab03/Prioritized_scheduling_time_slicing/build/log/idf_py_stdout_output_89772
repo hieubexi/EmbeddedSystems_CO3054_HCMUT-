@@ -1,0 +1,52 @@
+[0/1] Re-running CMake...
+-- ccache will be used for faster recompilation
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file D:/Semester_231/Embeded_System/Lab/lab03/Prioritized_scheduling_time_slicing/sdkconfig
+-- App "lab03" version: 1.0
+-- Adding linker script D:/Semester_231/Embeded_System/Lab/lab03/Prioritized_scheduling_time_slicing/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/Users/hieun/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script C:/Users/hieun/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Users/hieun/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Users/hieun/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Users/hieun/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script C:/Users/hieun/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script C:/Users/hieun/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/Users/hieun/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: C:/Users/hieun/esp/esp-idf/components/app_trace C:/Users/hieun/esp/esp-idf/components/app_update C:/Users/hieun/esp/esp-idf/components/bootloader C:/Users/hieun/esp/esp-idf/components/bootloader_support C:/Users/hieun/esp/esp-idf/components/bt C:/Users/hieun/esp/esp-idf/components/cmock C:/Users/hieun/esp/esp-idf/components/console C:/Users/hieun/esp/esp-idf/components/cxx C:/Users/hieun/esp/esp-idf/components/driver C:/Users/hieun/esp/esp-idf/components/efuse C:/Users/hieun/esp/esp-idf/components/esp-tls C:/Users/hieun/esp/esp-idf/components/esp_adc C:/Users/hieun/esp/esp-idf/components/esp_app_format C:/Users/hieun/esp/esp-idf/components/esp_coex C:/Users/hieun/esp/esp-idf/components/esp_common C:/Users/hieun/esp/esp-idf/components/esp_eth C:/Users/hieun/esp/esp-idf/components/esp_event C:/Users/hieun/esp/esp-idf/components/esp_gdbstub C:/Users/hieun/esp/esp-idf/components/esp_hid C:/Users/hieun/esp/esp-idf/components/esp_http_client C:/Users/hieun/esp/esp-idf/components/esp_http_server C:/Users/hieun/esp/esp-idf/components/esp_https_ota C:/Users/hieun/esp/esp-idf/components/esp_https_server C:/Users/hieun/esp/esp-idf/components/esp_hw_support C:/Users/hieun/esp/esp-idf/components/esp_lcd C:/Users/hieun/esp/esp-idf/components/esp_local_ctrl C:/Users/hieun/esp/esp-idf/components/esp_mm C:/Users/hieun/esp/esp-idf/components/esp_netif C:/Users/hieun/esp/esp-idf/components/esp_netif_stack C:/Users/hieun/esp/esp-idf/components/esp_partition C:/Users/hieun/esp/esp-idf/components/esp_phy C:/Users/hieun/esp/esp-idf/components/esp_pm C:/Users/hieun/esp/esp-idf/components/esp_psram C:/Users/hieun/esp/esp-idf/components/esp_ringbuf C:/Users/hieun/esp/esp-idf/components/esp_rom C:/Users/hieun/esp/esp-idf/components/esp_system C:/Users/hieun/esp/esp-idf/components/esp_timer C:/Users/hieun/esp/esp-idf/components/esp_wifi C:/Users/hieun/esp/esp-idf/components/espcoredump C:/Users/hieun/esp/esp-idf/components/esptool_py C:/Users/hieun/esp/esp-idf/components/fatfs C:/Users/hieun/esp/esp-idf/components/freertos C:/Users/hieun/esp/esp-idf/components/hal C:/Users/hieun/esp/esp-idf/components/heap C:/Users/hieun/esp/esp-idf/components/http_parser C:/Users/hieun/esp/esp-idf/components/idf_test C:/Users/hieun/esp/esp-idf/components/ieee802154 C:/Users/hieun/esp/esp-idf/components/json C:/Users/hieun/esp/esp-idf/components/log C:/Users/hieun/esp/esp-idf/components/lwip D:/Semester_231/Embeded_System/Lab/lab03/Prioritized_scheduling_time_slicing/main C:/Users/hieun/esp/esp-idf/components/mbedtls C:/Users/hieun/esp/esp-idf/components/mqtt C:/Users/hieun/esp/esp-idf/components/newlib C:/Users/hieun/esp/esp-idf/components/nvs_flash C:/Users/hieun/esp/esp-idf/components/openthread C:/Users/hieun/esp/esp-idf/components/partition_table C:/Users/hieun/esp/esp-idf/components/perfmon C:/Users/hieun/esp/esp-idf/components/protobuf-c C:/Users/hieun/esp/esp-idf/components/protocomm C:/Users/hieun/esp/esp-idf/components/pthread C:/Users/hieun/esp/esp-idf/components/sdmmc C:/Users/hieun/esp/esp-idf/components/soc C:/Users/hieun/esp/esp-idf/components/spi_flash C:/Users/hieun/esp/esp-idf/components/spiffs C:/Users/hieun/esp/esp-idf/components/tcp_transport C:/Users/hieun/esp/esp-idf/components/ulp C:/Users/hieun/esp/esp-idf/components/unity C:/Users/hieun/esp/esp-idf/components/usb C:/Users/hieun/esp/esp-idf/components/vfs C:/Users/hieun/esp/esp-idf/components/wear_levelling C:/Users/hieun/esp/esp-idf/components/wifi_provisioning C:/Users/hieun/esp/esp-idf/components/wpa_supplicant C:/Users/hieun/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Semester_231/Embeded_System/Lab/lab03/Prioritized_scheduling_time_slicing/build
+[1/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[2/9] Linking C static library esp-idf\main\libmain.a
+[3/9] Generating ld/sections.ld
+[4/9] Performing build step for 'bootloader'
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file D:/Semester_231/Embeded_System/Lab/lab03/Prioritized_scheduling_time_slicing/sdkconfig
+Compiler supported targets: xtensa-esp32-elf
+
+-- Adding linker script C:/Users/hieun/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- App "bootloader" version: v5.1.1-dirty
+-- Adding linker script C:/Users/hieun/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Users/hieun/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Users/hieun/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Users/hieun/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/Users/hieun/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld
+-- Adding linker script C:/Users/hieun/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_common esp_hw_support esp_rom esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: C:/Users/hieun/esp/esp-idf/components/bootloader C:/Users/hieun/esp/esp-idf/components/bootloader_support C:/Users/hieun/esp/esp-idf/components/efuse C:/Users/hieun/esp/esp-idf/components/esp_app_format C:/Users/hieun/esp/esp-idf/components/esp_common C:/Users/hieun/esp/esp-idf/components/esp_hw_support C:/Users/hieun/esp/esp-idf/components/esp_rom C:/Users/hieun/esp/esp-idf/components/esp_system C:/Users/hieun/esp/esp-idf/components/esptool_py C:/Users/hieun/esp/esp-idf/components/freertos C:/Users/hieun/esp/esp-idf/components/hal C:/Users/hieun/esp/esp-idf/components/log C:/Users/hieun/esp/esp-idf/components/bootloader/subproject/main C:/Users/hieun/esp/esp-idf/components/bootloader/subproject/components/micro-ecc C:/Users/hieun/esp/esp-idf/components/newlib C:/Users/hieun/esp/esp-idf/components/partition_table C:/Users/hieun/esp/esp-idf/components/soc C:/Users/hieun/esp/esp-idf/components/spi_flash C:/Users/hieun/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Semester_231/Embeded_System/Lab/lab03/Prioritized_scheduling_time_slicing/build/bootloader
+[1/1] cmd.exe /C "cd /D D:\Semester_231\Embeded_System\Lab\lab03\Prioritized_scheduling_time_slicing\build\bootloader\esp-idf\esptool_py && C:\Users\hieun\.espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe C:/Users/hieun/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/Semester_231/Embeded_System/Lab/lab03/Prioritized_scheduling_time_slicing/build/bootloader/bootloader.bin"
+Bootloader binary size 0x66d0 bytes. 0x930 bytes (8%) free.
+[5/7] Linking CXX executable lab03.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.7.dev1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/Semester_231/Embeded_System/Lab/lab03/Prioritized_scheduling_time_slicing/build/lab03.bin
+[7/7] cmd.exe /C "cd /D D:\Semester_231\Embeded_System\Lab\lab03\Prioritized_scheduling_time_slicing\build\esp-idf\esptool_py && C:\Users\hieun\.espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe C:/Users/hieun/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Semester_231/Embeded_System/Lab/lab03/Prioritized_scheduling_time_slicing/build/partition_table/partition-table.bin D:/Semester_231/Embeded_System/Lab/lab03/Prioritized_scheduling_time_slicing/build/lab03.bin"
+lab03.bin binary size 0x28190 bytes. Smallest app partition is 0x100000 bytes. 0xd7e70 bytes (84%) free.

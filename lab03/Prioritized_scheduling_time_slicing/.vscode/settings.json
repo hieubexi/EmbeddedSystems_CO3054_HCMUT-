@@ -10,7 +10,8 @@
         "compare": "c",
         "sdkconfig.h": "c",
         "task.h": "c",
-        "esp_freertos_hooks.h": "c"
+        "esp_freertos_hooks.h": "c",
+        "freertos.h": "c"
     },
     "cSpell.words": [
         "TICKLESS"
