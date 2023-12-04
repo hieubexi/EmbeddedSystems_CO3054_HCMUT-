@@ -17,9 +17,11 @@
 #include "lwip/err.h"
 #include "lwip/sys.h"
 
-#define ESP_WIFI_SSID "The Seed Cafe"
-#define ESP_WIFI_PASS "xincamon"
-#define ESP_MAXIMUM_RETRY 10
+// Need to config 
+#define ESP_WIFI_SSID "your wifi id"
+#define ESP_WIFI_PASS "your wifi password"
+// you can also config maximum retry
+#define ESP_MAXIMUM_RETRY 10 
 
 /* FreeRTOS event group to signal when we are connected*/
 static EventGroupHandle_t s_wifi_event_group;
