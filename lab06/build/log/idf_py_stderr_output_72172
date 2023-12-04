@@ -1,0 +1,75 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM5 instead...[0m
+[0;33m--- esp-idf-monitor 1.2.1 on \\.\COM5 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008137c: call_start_cpu1 at C:/Users/hieun/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x400014fa: strlen in ROM
+[0m
+[0;33m0x40149707: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1524
+[0m
+[0;33m0x401438d5: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x400d68c7: app_main at D:/Semester_231/Embeded_System/Lab/lab06/main/main.c:182 (discriminator 13)
+[0m
+[0;33m0x40156347: main_task at C:/Users/hieun/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4008b4c9: vPortTaskWrapper at C:/Users/hieun/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008137c: call_start_cpu1 at C:/Users/hieun/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x400014fa: strlen in ROM
+[0m
+[0;33m0x40149707: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1524
+[0m
+[0;33m0x401438d5: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x400d68c7: app_main at D:/Semester_231/Embeded_System/Lab/lab06/main/main.c:182 (discriminator 13)
+[0m
+[0;33m0x40156347: main_task at C:/Users/hieun/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4008b4c9: vPortTaskWrapper at C:/Users/hieun/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008137c: call_start_cpu1 at C:/Users/hieun/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x400014fa: strlen in ROM
+[0m
+[0;33m0x40149707: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1524
+[0m
+[0;33m0x401438d5: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x400d68c7: app_main at D:/Semester_231/Embeded_System/Lab/lab06/main/main.c:182 (discriminator 13)
+[0m
+[0;33m0x40156347: main_task at C:/Users/hieun/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4008b4c9: vPortTaskWrapper at C:/Users/hieun/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008137c: call_start_cpu1 at C:/Users/hieun/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0m

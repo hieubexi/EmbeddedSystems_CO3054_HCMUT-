@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "nvs_flash.h": "c",
+        "esp_wifi.h": "c",
+        "functional": "c"
+    }
+}
