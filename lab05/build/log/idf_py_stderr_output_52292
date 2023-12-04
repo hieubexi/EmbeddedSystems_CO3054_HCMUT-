@@ -1,0 +1,20 @@
+Compiler supported targets: xtensa-esp32-elf
+
+CMake Error at C:/Users/hieun/esp/esp-idf/tools/cmake/component.cmake:479 (add_library):
+  Cannot find source file:
+
+    D:/Semester_231/Embeded_System/Lab/lab05/main/main.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+Call Stack (most recent call first):
+  main/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Error at C:/Users/hieun/esp/esp-idf/tools/cmake/component.cmake:479 (add_library):
+  No SOURCES given to target: __idf_main
+Call Stack (most recent call first):
+  main/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

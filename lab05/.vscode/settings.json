@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "stdio.h": "c",
+        "queue.h": "c",
+        "task.h": "c",
+        "timers.h": "c",
+        "freertos.h": "c",
+        "freertosconfig.h": "c",
+        "time.h": "c"
+    },
+    "cSpell.words": [
+        "Ahihi",
+        "Ihaha"
+    ],
+    "idf.adapterTargetName": "esp32"
+}
