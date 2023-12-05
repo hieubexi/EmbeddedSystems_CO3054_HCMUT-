@@ -23,19 +23,24 @@
 // define timer
 TimerHandle_t xTimer_ahihi;
 TimerHandle_t xTimer_ihaha;
+TimerHandle_t xOneShot;
 // Counter for task
 static uint32_t ulCounter_0 = 0;
 static uint32_t ulCounter_1 = 0;
 
 void ATimerCallback(TimerHandle_t xTimer);
-
+// define one shot call back function
+// void oneShotTimer(TimerHandle_t xTimer);
 void app_main(void)
 {
   xTimer_ahihi = xTimerCreate("vTimer_0", pdMS_TO_TICKS(2000), pdTRUE, (void *)ahihi_ID, ATimerCallback);
   xTimer_ihaha = xTimerCreate("vTimer_1", pdMS_TO_TICKS(3000), pdTRUE, (void *)ihaha_ID, ATimerCallback);
-  
+  // xOneShot = xTimerCreate("oneShot", pdMS_TO_TICKS(9000), pdFALSE, (void *)15, oneShotTimer);
   // Check if timer is available 
-  if (xTimerStart(xTimer_ahihi, 0) != pdPASS || xTimerStart(xTimer_ihaha, 0) != pdPASS)
+  if (xTimerStart(xTimer_ahihi, 0) != pdPASS || 
+      xTimerStart(xTimer_ihaha, 0) != pdPASS 
+  // || xTimerStart(xOneShot, 0) != pdPASS
+  )
   {
     ESP_LOGI(TAG, "At %ld, timer start failed", pdTICKS_TO_MS(xTaskGetTickCount()));
   }
@@ -67,3 +72,7 @@ void ATimerCallback(TimerHandle_t xTimer)
     }
   }
 }
+// test one shot timer
+// void oneShotTimer(TimerHandle_t xTimer){
+//   ESP_LOGI(TAG,"At %ld ms, ONE SHOT timer \"bum bum bum chiu\"", pdTICKS_TO_MS(xTaskGetTickCount()));
+// }

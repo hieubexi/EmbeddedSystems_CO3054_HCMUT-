@@ -1,5 +1,5 @@
 /*
-* creator/date: HieuHuuNguyen_2013149/Oct.11.2023
+* creator/date: Group-05/Oct.11.2023
 * course name/ID: Embedded_Systems/CO3054
 */
 // RTOS services

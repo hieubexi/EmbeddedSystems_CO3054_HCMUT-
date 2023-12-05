@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "lab05",
-    "project_version":    "ac7f261-dirty",
+    "project_version":    "1.0",
     "project_path":       "D:/Semester_231/Embeded_System/Lab/lab05",
     "idf_path":           "C:/Users/hieun/esp/esp-idf",
     "build_dir":          "D:/Semester_231/Embeded_System/Lab/lab05/build",
