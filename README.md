@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 # Embedded_system_lab
 Creator/lastUpdateDate: HieuNguyenHuu/Nov.18.2023
 github: https://github.com/hieubexi/Embedded_system_lab
 
-=======
 # About this repository
 Creator/UpdateDate: HieuNguyenHuu/Dec.04.2023 <br>
 This repo contains  6 lab exercises of Embedded Systems (CO3054), Ho Chi Minh City University of Technology (HCMUT)<br>
@@ -40,4 +38,4 @@ or you can just run multiple commands `idf.py build flash monitor`.
     * Hardware connection is not correct: run `idf.py -p PORT monitor`, and reboot your board to see if there are any output logs.
     * The baud rate for downloading is too high: lower your baud rate in the `menuconfig` menu, and try again.
 We will get back to you as soon as possible.
->>>>>>> 18b94b2a7a6d065fe9004f63477fbff05c510cd7
+
